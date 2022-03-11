@@ -1,0 +1,40 @@
+{
+  "header": "General",
+  "links": [
+    {
+      "name": "Getting Started",
+      "ref": "customGettingStartedContent"
+    },
+    {
+      "name": "Change Logs",
+      "ref": "customChangeLogsContent"
+    },
+    {
+      "name": "Demos",
+      "ref": "customDemosContent"
+    }
+  ],
+  "contents": {
+    "gettingStartedContent": {
+      "context": {
+        "ref": "customGettingStartedContent",
+        "header": "Getting Started",
+        "innerHTML": "</p>Typescript ready scaffolding for writing and publishing libraries. It comes packaged with an automated &amp; customizable documentation website generator. This allows you to focus on writing code just for your library instead of doing all the other setup stuff.</p>"
+      }
+    },
+    "changeLogsContent": {
+      "context": {
+        "ref": "customChangeLogsContent",
+        "header": "Change Logs",
+        "innerHTML": "<p>Changes to codebase history</p>"
+      }
+    },
+    "demosContent": {
+      "context": {
+        "ref": "customDemosContent",
+        "header": "Demos",
+        "innerHTML": "<p>Some example uses case</p>"
+      }
+    }
+  }
+}

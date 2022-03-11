@@ -1,0 +1,21 @@
+<store-observer>
+    <slot store={ state.s } />
+
+    <script>
+        import { autorun } from "mobx";
+        import store from "./"
+
+        export default {
+            state: {
+                s: store
+            },
+            onMounted() {
+                autorun(()=> {
+                    this.update({
+                        s: store
+                    })
+                })
+            }
+        }
+    </script>
+</store-observer>

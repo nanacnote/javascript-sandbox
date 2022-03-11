@@ -1,0 +1,127 @@
+{
+  "item-01": {
+    "name": "About",
+    "children": [
+      {
+        "id": "about",
+        "customClass": "",
+        "description": "Hello! \nI'm Owusu K \nFullstack Developer \n& Data Scientist",
+        "leftImage": "about_barcode",
+        "leftImageHeight": "75",
+        "hoverImage": "",
+        "leftDetails": []
+      }
+    ]
+  },
+  "item-02": {
+    "name": "Work",
+    "children": [
+      {
+        "id": "work-01",
+        "customClass": "",
+        "description": "PepsiCo",
+        "leftImage": "pesico_image",
+        "leftImageHeight": "200",
+        "hoverImage": "",
+        "leftDetails": []
+      },
+      {
+        "id": "work-02",
+        "customClass": "",
+        "description": "Nike-Town",
+        "leftImage": "nike_image",
+        "leftImageHeight": "200",
+        "hoverImage": "",
+        "leftDetails": []
+      }
+    ]
+  },
+  "item-03": {
+    "name": "Services",
+    "children": [
+      {
+        "id": "services-01",
+        "customClass": "",
+        "description": "HELIAS",
+        "leftImage": "",
+        "leftImageHeight": "",
+        "hoverImage": "services_01_image",
+        "leftDetails": ["User Experience", "Art Direction", "Web Design"]
+      },
+      {
+        "id": "services-02",
+        "customClass": "",
+        "description": "HOBOKEN YOGI",
+        "leftImage": "",
+        "leftImageHeight": "",
+        "hoverImage": "services_02_image",
+        "leftDetails": [
+          "Art Direction",
+          "Web Design",
+          "User Experience",
+          "Interactive",
+          "Brand Design"
+        ]
+      },
+      {
+        "id": "services-03",
+        "customClass": "",
+        "description": "BUZZWORTHY",
+        "leftImage": "",
+        "leftImageHeight": "",
+        "hoverImage": "services_03_image",
+        "leftDetails": [
+          "User Experience",
+          "Web Design",
+          "Interactive",
+          "Brand Design",
+          "Art Direction",
+          "Front-End",
+          "Brand Strategy"
+        ]
+      },
+      {
+        "id": "services-04",
+        "customClass": "",
+        "description": "GATTO",
+        "leftImage": "",
+        "leftImageHeight": "",
+        "hoverImage": "services_04_image",
+        "leftDetails": [
+          "Interactive",
+          "Brand Strategy",
+          "Brand Design",
+          "Front-End"
+        ]
+      },
+      {
+        "id": "services-05",
+        "customClass": "",
+        "description": "SNOOZE",
+        "leftImage": "",
+        "leftImageHeight": "",
+        "hoverImage": "services_05_image",
+        "leftDetails": [
+          "Interactive",
+          "Art Direction",
+          "User Experience",
+          "Brand Strategy"
+        ]
+      }
+    ]
+  },
+  "item-04": {
+    "name": "Contact",
+    "children": [
+      {
+        "id": "contact",
+        "customClass": "contactData",
+        "description": "15 Main House \n123 Great Street \nAA2 2AB \nFairview \n\n(020) 1234 5678",
+        "leftImage": "",
+        "leftImageHeight": "",
+        "hoverImage": "",
+        "leftDetails": ["map"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "editor.wordWrapColumn": 100,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "shellcheck.enableQuickFix": true,
+  "cSpell.words": [
+    "IPROPS",
+    "scriptrc",
+    "grayscale",
+    "lbody",
+    "mbody",
+    "nowrap",
+    "sbody",
+    "svgr"
+  ]
+}

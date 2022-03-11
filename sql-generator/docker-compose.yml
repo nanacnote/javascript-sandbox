@@ -1,0 +1,25 @@
+version: '3.1'
+
+services:
+  db:
+    build:
+      context: .
+      dockerfile: ./images/postgres
+    container_name: postgres
+    image: c-note/postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: secret
+    ports:
+      - '5433:5432'
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+
+volumes:
+  pg_data:

@@ -1,0 +1,14 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Utils
+on:
+  workflow_dispatch:
+
+jobs:
+  delete:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: strumwolf/delete-deployment-environment@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          environment: ${{ secrets.ENVIRONMENT_NAME }}

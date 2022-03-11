@@ -1,0 +1,22 @@
+.container {
+}
+.wrapper {
+  width: 1500px;
+}
+
+@media screen and (min-width: 1023px) {
+  .nav-logo {
+    position: relative;
+    transform-origin: top center;
+    animation: swing-slow ease-in-out 2500ms infinite alternate;
+  }
+}
+
+@keyframes swing-slow {
+  0% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(-3deg);
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "companyName": "hiram labs ltd",
+  "bannerHeader": "let us handle the technical.",
+  "bannerSub": "...we do big things for small businesses",
+  "introHeader": "working as a freelancing collective, you know we love what we do.",
+  "introSub": "Your organisation's digital presence is the first impression these days. So you have to get it right and we are here to help you do just that. With most people spending at least 3 hours a day looking on thier phones, we adopt the mobile first approach and build from there.",
+  "navLinks": [
+    { "name": "services", "details": ["details go here!!!!"] },
+    { "name": "about", "details": "" },
+    { "name": "projects", "details": "" },
+    { "name": "contact", "details": "" },
+    { "name": "blog", "details": "" },
+    { "name": "career", "details": "" }
+  ],
+  "techHeader": "using the right technology for the right project is key.",
+  "techSub": "There is a wide array of tech stacks and each of them have pros and cons. Our job is to find the right one for your project and implement it in such a way as to maximise performance without compromising on ui/ux.",
+  "tech": [
+    { "name": "Java", "image": "java.svg" },
+    { "name": "JavaScript", "image": "javascript.svg" },
+    { "name": "Python", "image": "python.svg" },
+    { "name": "Flutter", "image": "flutter.svg" },
+    { "name": "wordpress", "image": "wordpress.svg" },
+    { "name": "WooCommerce", "image": "woocommerce.svg" },
+    { "name": "Html", "image": "html.svg" },
+    { "name": "CSS", "image": "css.svg" },
+    { "name": "Webpack", "image": "webpack.svg" },
+    { "name": "TensorFlow", "image": "tensorflow.svg" },
+    { "name": "Docker", "image": "docker.svg" },
+    { "name": "node.js", "image": "nodejs.svg" },
+    { "name": "GitHub", "image": "github.svg" },
+    { "name": "GraphQL", "image": "graphql.svg" },
+    { "name": "MongoDB", "image": "mongodb.svg" }
+  ],
+  "servicesHeader": "",
+  "servicesSub": "",
+  "services": [
+    { "name": "apps" },
+    { "name": "website" },
+    { "name": "software" },
+    { "name": "data" }
+  ],
+  "projectsHeader": "with the flexibility to work with your ideas or brainstorm new ones with you, the highest quality of a production version is always assured.",
+  "projectsSub": "Your organisation's goal is what we strive to bring to life, be it a very specific idea you have or a problem you want us to solve with our expertise.",
+  "projects": [
+    {
+      "organisation": "UEA Investment Society",
+      "service": "Web Application",
+      "name": "Analyst Dashboard",
+      "image": "uea_invest_society.jpg"
+    },
+    {
+      "organisation": "Unit9 Agency",
+      "service": "Website",
+      "name": "React Landing Page",
+      "image": "unit9.jpg"
+    }
+  ],
+  "contactHeader": "talk to us about questions you have.",
+  "contactSub": "Our team is happy to talk to you about your ideas or projects you have coming up.",
+  "blogHeader": "read some of our blog posts.",
+  "blogSub": "We release at least one article a month and this mostly covers a topic in the web tech space.",
+  "blog": [
+    {
+      "date": "1 Oct 2020",
+      "image": "post_1.jpg",
+      "category": "Post",
+      "title": "Rank Top In Your City",
+      "hashtags": ["seo", "website", "search"]
+    },
+    {
+      "date": "3 Nov 2020",
+      "image": "post_2.jpg",
+      "category": "Post",
+      "title": "Coming of AI",
+      "hashtags": ["technology", "artificial", "intelligence"]
+    },
+    {
+      "date": "2 Dec 2020",
+      "image": "post_3.jpg",
+      "category": "Post",
+      "title": "The Open Source Model",
+      "hashtags": ["community", "free", "open"]
+    }
+  ]
+}

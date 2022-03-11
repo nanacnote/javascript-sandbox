@@ -1,0 +1,163 @@
+html ::-webkit-scrollbar {
+  width: 7.5px;
+}
+html ::-webkit-scrollbar-thumb {
+  border-radius: 0.25rem;
+  background: #cbcbcb;
+}
+html body {
+  font-family: "Roboto Slab", serif;
+  background: #f4f4f4;
+  height: 100%;
+}
+html body a {
+  color: #40a9ff;
+  text-decoration: none !important;
+}
+html body pre {
+  background: #f4f4f4;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 0.25rem;
+  color: #666;
+  page-break-inside: avoid;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 1.5em;
+  display: block;
+  word-wrap: break-word;
+}
+html body #logo {
+  cursor: pointer;
+}
+html body .selected-bottom {
+  border-bottom: solid 3px #f4f4f4 !important;
+}
+html body .selected-left {
+  border-left: solid 3px #cbcbcb !important;
+  border-radius: 0;
+  color: #cbcbcb !important;
+}
+html body .btn-no-decoration {
+  text-align: start;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 5px;
+  font: inherit;
+  cursor: pointer;
+  outline: non;
+}
+html body .btn-no-decoration:hover {
+  border-radius: 0.25rem;
+  background: rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+html body .btn-no-decoration:focus {
+  outline: inherit;
+}
+html body #navbar-xs,
+html body #navbar-md {
+  min-height: 60px;
+  background: #ffb8b0;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+html body #navbar-md {
+  height: 60px;
+}
+html body #navbar-xs #navbar-xs-button {
+  height: 60px;
+}
+html body #sider {
+  height: 100%;
+}
+html body #sider #sider-lg-stick {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+}
+html body #stage {
+  min-height: 500px;
+}
+html body #stage #stage-edit-link {
+  font-size: 0.85rem;
+}
+html body #footer {
+  font-size: 0.85rem;
+}
+
+/*
+
+Visual Studio-like style based on original C# coloring by Jason Diamond <jason@diamond.name>
+
+*/
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-variable {
+  color: #008000;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-built_in,
+.hljs-name,
+.hljs-tag {
+  color: #00f;
+}
+
+.hljs-string,
+.hljs-title,
+.hljs-section,
+.hljs-attribute,
+.hljs-literal,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-type,
+.hljs-addition {
+  color: #a31515;
+}
+
+.hljs-deletion,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-meta {
+  color: #2b91af;
+}
+
+.hljs-doctag {
+  color: #808080;
+}
+
+.hljs-attr {
+  color: #f00;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link {
+  color: #00b0e8;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=main.css.map */

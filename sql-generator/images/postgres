@@ -1,0 +1,11 @@
+FROM postgres
+
+RUN echo "\n\
+\\set PROMPT1 '%001%[%033[1;32;40m%]%002%n@%/%R%# '\
+\\set PROMPT2 '> '" \
+    >>/root/.psqlrc
+
+ENV POSTGRES_PASSWORD secret
+ENV POSTGRES_DB uea_cmp
+
+# COPY ../database/*.sql /docker-entrypoint-initdb.d/

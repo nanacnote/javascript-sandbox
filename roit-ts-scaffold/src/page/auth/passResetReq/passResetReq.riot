@@ -1,0 +1,58 @@
+<pass-reset-req>
+  <div id="pass-reset-req-container">
+    <h3>Forgot Password</h3>
+    <form onsubmit={ handleSubmit }>
+      <div class="item">
+        <label for="pass-reset-req-email-input">Email</label>
+        <input id="pass-reset-req-email-input" type="email" name="email" placeholder="hello@email.com" required>
+      </div>
+      <div class="btn-wrapper">
+        <button type="submit">Send</button>
+        <div>
+          <a href={c.path.AUTH_SIGN_IN}>Existing User</a>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    export default {
+      components: {},
+      handleSubmit(e) {
+        e.preventDefault()
+        const payload = Object.fromEntries(new FormData(this.$('form')))
+        this.api.auth.passResetReq(payload).then(() => {this.$('input').value = ""})
+      },
+    }
+  </script>
+
+  <style>
+    :host #pass-reset-req-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    :host a {
+      display: block;
+    }
+
+    :host button {
+      margin: 12.5px 0;
+      width: 100%;
+    }
+
+    :host .item {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 12.5px;
+    }
+    
+    :host .btn-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+  </style>
+</pass-reset-req>

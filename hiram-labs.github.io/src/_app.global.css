@@ -1,0 +1,544 @@
+/* add all the needed tailwind styles */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* adds lato and Dancing Sript fonts from google font api */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+/* centers a div */
+@variants responsive {
+  .center-child {
+    @apply flex;
+    @apply justify-center;
+    @apply items-center;
+  }
+}
+
+/* custom style classes */
+/* under or overline in multi colors */
+.line-1::before {
+  content: '';
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10rem;
+  height: 8px;
+  border-radius: 1rem;
+  background: theme('colors.customComplementaryGreen');
+  box-shadow: 0 0 0.5rem theme('colors.customComplementaryGreen'),
+    inset 0 0 0.5rem theme('colors.customComplementaryGreen'),
+    0 0 2rem theme('colors.customComplementaryGreen'),
+    inset 0 0 2rem theme('colors.customComplementaryGreen'),
+    0 0 4rem theme('colors.customComplementaryGreen'),
+    inset 0 0 4rem theme('colors.customComplementaryGreen');
+}
+.line-2::before {
+  content: '';
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10rem;
+  height: 8px;
+  border-radius: 1rem;
+  background: theme('colors.customComplementaryBlue');
+  box-shadow: 0 0 0.5rem theme('colors.customComplementaryBlue'),
+    inset 0 0 0.5rem theme('colors.customComplementaryBlue'),
+    0 0 2rem theme('colors.customComplementaryBlue'),
+    inset 0 0 2rem theme('colors.customComplementaryBlue'),
+    0 0 4rem theme('colors.customComplementaryBlue'),
+    inset 0 0 4rem theme('colors.customComplementaryBlue');
+}
+.line-3::before {
+  content: '';
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10rem;
+  height: 8px;
+  border-radius: 1rem;
+  background: theme('colors.customComplementaryPink');
+  box-shadow: 0 0 0.5rem theme('colors.customComplementaryPink'),
+    inset 0 0 0.5rem theme('colors.customComplementaryPink'),
+    0 0 2rem theme('colors.customComplementaryPink'),
+    inset 0 0 2rem theme('colors.customComplementaryPink'),
+    0 0 4rem theme('colors.customComplementaryPink'),
+    inset 0 0 4rem theme('colors.customComplementaryPink');
+}
+
+/* text shadow */
+@responsive {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .text-shadow-md {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.08);
+  }
+  .text-shadow-lg {
+    text-shadow: 0 15px 30px rgba(0, 0, 0, 0.11), 0 5px 15px rgba(0, 0, 0, 0.08);
+  }
+  .text-shadow-xl {
+    text-shadow: 0 15px 30px rgba(0, 0, 0, 0.11), 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  .text-shadow-2xl {
+    text-shadow: 0 15px 30px rgba(0, 0, 0, 0.11), 0 5px 15px rgba(0, 0, 0, 1);
+  }
+  .text-shadow-3d {
+    text-shadow: 0px 0.5px 0px #c0c0c0, 0px 1px 0px #b0b0b0,
+      0px 1.5px 0px #a0a0a0, 0px 2px 0px #909090,
+      0px 2.5px 5px rgba(0, 0, 0, 0.6);
+  }
+  .text-shadow-none {
+    text-shadow: none;
+  }
+}
+
+/* button with shadow and press animation */
+@responsive {
+  .btn-3d-white {
+    cursor: pointer;
+    text-shadow: 0px 0.5px 0px #c0c0c0, 0px 1px 0px #b0b0b0,
+      0px 1.5px 0px #a0a0a0, 0px 2px 0px #909090,
+      0px 2.5px 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0.5px 0px #c0c0c0, 0px 1px 0px #b0b0b0,
+      0px 1.5px 0px #a0a0a0, 0px 2px 0px #909090,
+      0px 2.5px 5px rgba(0, 0, 0, 0.5) !important;
+    border: 2.5px solid theme('colors.customBgContrast');
+    position: relative;
+    transition: all ease 1s;
+  }
+  .btn-3d-black {
+    cursor: pointer;
+    box-shadow: 0px 0.5px 0px theme('colors.customBg'),
+      0px 1px 0px theme('colors.customBg'),
+      0px 1.5px 0px theme('colors.customBg'), 0px 2px 0px #909090,
+      0px 2.5px 5px rgba(0, 0, 0, 0.5) !important;
+    border: 2.5px solid theme('colors.customBg');
+    position: relative;
+    transition: all ease 1s;
+  }
+  .btn-3d-white:active,
+  .btn-3d-white:focus,
+  .btn-3d-black:active,
+  .btn-3d-black:focus {
+    outline: none !important;
+    box-shadow: 0 3px 0 theme('colors.customComplementaryBlue') !important;
+    border-image-slice: 1;
+    animation: btn-active 0.25s;
+  }
+}
+@keyframes btn-active {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 1.5px;
+  }
+}
+
+@variants responsive {
+  .neon-text-pink {
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    animation: flicker 1.5s infinite alternate, custom-grow 0.5s;
+  }
+}
+/* Animate neon flicker */
+@keyframes flicker {
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: 0 0 5px theme('colors.customComplementaryPink'),
+      0 0 10px theme('colors.customComplementaryPink'),
+      0 0 15px theme('colors.customComplementaryPink'),
+      0 0 20px theme('colors.customComplementaryPink'),
+      0 0 25px theme('colors.customComplementaryPink'),
+      0 0 30px theme('colors.customComplementaryPink');
+  }
+  20%,
+  24%,
+  55% {
+    text-shadow: 0 0 5px theme('colors.customComplementaryPink'),
+      0 0 5px theme('colors.customComplementaryPink'),
+      0 0 10px theme('colors.customComplementaryPink');
+  }
+}
+
+/* slides div in from top with fade in */
+@variants responsive {
+  .animate-slide-in-top {
+    animation: slide-in-top 0.5s;
+  }
+  .animate-slide-in-top-0 {
+    animation: slide-in-top 0.5s forwards;
+    animation-delay: 0s;
+    opacity: 0;
+  }
+  .animate-slide-in-top-1 {
+    animation: slide-in-top 0.5s forwards;
+    animation-delay: 0.25s;
+    opacity: 0;
+  }
+  .animate-slide-in-top-2 {
+    animation: slide-in-top 0.5s forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+  }
+}
+@keyframes slide-in-top {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+/* slides div in from bottom with fade in */
+@variants responsive {
+  .animate-slide-in-bottom {
+    animation: slide-in-bottom 0.5s;
+  }
+}
+@keyframes slide-in-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+/* slides div in from left with fade in */
+@variants responsive {
+  .animate-slide-in-left {
+    animation: slide-in-left 0.5s;
+  }
+}
+@keyframes slide-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+/* slides div in from right with fade in  */
+@variants responsive {
+  .animate-slide-in-right {
+    animation: custom-slide-in-right 0.5s;
+  }
+}
+@keyframes custom-slide-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+/* Grows div from scale 0 t0 100% with fade in  */
+@variants responsive {
+  .animate-grow {
+    animation: custom-grow 0.5s;
+  }
+}
+@keyframes custom-grow {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Fade div out and hide  */
+@variants responsive {
+  .animate-fade-in {
+    animation: custom-fade-in 2.5s;
+  }
+}
+@keyframes custom-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* custom animation for starts  */
+@keyframes twinkle {
+  0% {
+    transform: scale(0.5, 0.5);
+    background: theme('colors.customBgContrast');
+    animation-timing-function: ease-in;
+    opacity: 0.25;
+  }
+  40% {
+    opacity: 0.5;
+  }
+  60% {
+    transform: scale(0.8, 0.8);
+    background: theme('colors.customComplementaryBlue');
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+  80% {
+    transform: scale(1.5, 1.5);
+    background: salmon;
+  }
+  100% {
+    transform: scale(1.2, 1);
+    background: theme('colors.customBgContrast');
+  }
+}
+/* shooting star */
+@keyframes shooting-star {
+  0% {
+    width: 0;
+    opacity: 0.1;
+    transform: translateX(0) rotateZ(45deg);
+  }
+  30% {
+    border-radius: 5px;
+    width: 500px;
+    opacity: 0.15;
+  }
+  100% {
+    width: 0;
+    opacity: 0;
+    transform: translateY(3500px) translateX(3500px);
+  }
+}
+
+/* custom hover effects */
+/* Underline From Center */
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 0;
+  /* background: theme('colors.customComplementaryPink'); */
+  background: theme('colors.customComplementaryPink');
+  box-shadow: 0 0 0.5rem theme('colors.customComplementaryPink'),
+    inset 0 0 0.5rem theme('colors.customComplementaryPink'),
+    0 0 2rem theme('colors.customComplementaryPink'),
+    inset 0 0 2rem theme('colors.customComplementaryPink'),
+    0 0 4rem theme('colors.customComplementaryPink'),
+    inset 0 0 4rem theme('colors.customComplementaryPink');
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  border-radius: 0.25rem;
+}
+.hvr-underline-from-center:hover:before,
+.hvr-underline-from-center:focus:before,
+.hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+.hvr-underline-from-center:focus {
+  outline: none;
+}
+
+/* Icon Wobble Horizontal */
+@-webkit-keyframes hvr-icon-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes hvr-icon-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+.hvr-icon-wobble-horizontal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-icon-wobble-horizontal .hvr-icon {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.hvr-icon-wobble-horizontal:hover .hvr-icon,
+.hvr-icon-wobble-horizontal:focus .hvr-icon,
+.hvr-icon-wobble-horizontal:active .hvr-icon {
+  -webkit-animation-name: hvr-icon-wobble-horizontal;
+  animation-name: hvr-icon-wobble-horizontal;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+.hvr-icon-wobble-horizontal:focus {
+  outline: none;
+}
+
+/* Icon Wobble Vertical */
+@-webkit-keyframes hvr-icon-wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+  33.3% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes hvr-icon-wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+  33.3% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.hvr-icon-wobble-vertical {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-icon-wobble-vertical .hvr-icon {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.hvr-icon-wobble-vertical:hover .hvr-icon,
+.hvr-icon-wobble-vertical:focus .hvr-icon,
+.hvr-icon-wobble-vertical:active .hvr-icon {
+  -webkit-animation-name: hvr-icon-wobble-vertical;
+  animation-name: hvr-icon-wobble-vertical;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+.hvr-icon-wobble-vertical:focus {
+  outline: none;
+}

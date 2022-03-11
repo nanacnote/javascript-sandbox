@@ -1,0 +1,22 @@
+/* scrollbar styles */
+.container ::-webkit-scrollbar {
+  display: none;
+  width: 10px;
+  height: 10px;
+  background: transparent;
+}
+.container ::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+/* generates gradient background for firts two section */
+.container {
+  background-image: linear-gradient(
+    to top,
+    #0f0e17,
+    #141222,
+    #18152e,
+    #1d1739,
+    #241944
+  );
+}

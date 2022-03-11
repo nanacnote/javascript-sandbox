@@ -1,0 +1,193 @@
+.container * {
+  box-sizing: border-box;
+}
+.container {
+  padding: 10px;
+}
+
+@mixin pad($color) {
+  position: relative;
+  margin: 0 1% 0 1%;
+  width: 35%;
+  height: 100%;
+  border: solid 2.5px $color;
+  border-radius: 5px;
+  touch-action: manipulation;
+  background: rgba(0, 0, 0, 0.75);
+  background-position: center;
+  transition: background 0.8s;
+  .padActive {
+    // used by keydown to activate the color effect
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 1)
+      radial-gradient(circle, transparent 1%, rgba(0, 0, 0, 0.75) 100%)
+      center/15000000%;
+    background-color: $color;
+    background-size: 100%;
+    transition: background 0s;
+  }
+  &:hover {
+    background: rgba(0, 0, 0, 1)
+      radial-gradient(circle, transparent 1%, rgba(0, 0, 0, 0.75) 100%)
+      center/15000000%;
+  }
+  &:active {
+    background-color: $color;
+    background-size: 100%;
+    transition: background 0s;
+  }
+  .padRef {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    & > div {
+      font-size: 200%;
+      opacity: 0.5;
+      user-select: none;
+    }
+  }
+  .padLight {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5%;
+    height: 5%;
+    background: $color;
+    border-bottom-left-radius: 5px;
+  }
+}
+
+@mixin global($height) {
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    .container {
+      width: 100%;
+      max-width: 1000px;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .device {
+        background: lightslategray;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: inset 0px 0px 54px -20px rgba(0, 0, 0, 0.73);
+        .screen {
+          display: flex;
+          // justify-content: space-between;
+          width: 90%;
+          height: 75px;
+          margin: 5%;
+          padding: 0.5% 2% 0.5% 2%;
+          background: black;
+          border-radius: 5px;
+          box-shadow: inset 1px 1px 3px rgb(136, 136, 136);
+          .screenSection {
+            display: flex;
+            flex-direction: column;
+            padding: 0 5%;
+            width: 33.3%;
+            overflow: hidden;
+            .screenSectionHeader {
+              color: darkslategray;
+            }
+            .screenSectionBody {
+              display: block;
+              color: lightsteelblue;
+            }
+          }
+        }
+        .wrapper {
+          display: flex;
+          width: 90%;
+          height: 10vmin;
+          max-height: 300px;
+          min-height: $height;
+          margin: 5%;
+          .padContainer {
+            width: 70%;
+            height: 100%;
+            .padTop {
+              display: flex;
+              width: 100%;
+              height: 50%;
+              margin-bottom: 2.5%;
+            }
+            .padBottom {
+              display: flex;
+              width: 100%;
+              height: 50%;
+              margin-top: 2.5%;
+            }
+          }
+          .controlsContainer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            width: 30%;
+            height: 100%;
+            .instruments {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              width: 85%;
+              height: 50%;
+              .instrumentsSelector {
+                display: flex;
+                justify-content: space-between;
+                width: 90%;
+                height: 25%;
+                margin: 5% 0;
+              }
+            }
+            .volume {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 85%;
+              height: 50%;
+            }
+          }
+        }
+      }
+    }
+  }
+  .padRed {
+    @include pad(#e81819);
+  }
+  .padOrange {
+    @include pad(#fa8943);
+  }
+  .padYellow {
+    @include pad(#fafa49);
+  }
+  .padGreen {
+    @include pad(#56ca5e);
+  }
+  .padBlue {
+    @include pad(#0cbfe9);
+  }
+  .padPurple {
+    @include pad(#c438d7);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  @include global(200px);
+}
+@media only screen and (min-width: 700px) {
+  @include global(350px);
+}

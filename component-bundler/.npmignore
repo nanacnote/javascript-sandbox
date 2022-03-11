@@ -1,0 +1,43 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# misc
+.DS_Store
+.env
+.env.*
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+/build
+/src
+
+/.git
+/.github
+/.storybook
+/.vscode
+/.yarn
+/scripts
+/public
+
+.scriptrc*
+.babelrc
+.clean-publish
+.eslintignore
+.eslintrc*
+.gitignore
+.npmignore
+.prettierrc*
+.stylelintrc
+.yarnrc*
+yarn.lock
+tsconfig*
+
+!/dist
+!/types

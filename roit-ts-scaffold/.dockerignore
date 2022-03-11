@@ -1,0 +1,15 @@
+.vscode
+.gitignore
+.dockerignore
+
+dist
+node_modules
+
+Dockerfile
+
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions

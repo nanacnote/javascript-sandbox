@@ -1,0 +1,11 @@
+# test
+tests/coverage
+
+# docker
+.devcontainer
+
+# dependencies
+node_modules
+
+# misc
+.DS_Store

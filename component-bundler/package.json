@@ -1,0 +1,102 @@
+{
+  "name": "@hiram-labs/component-bundler",
+  "version": "1.0.25",
+  "author": "Owusu K <adjeibohyen@hotmail.co.uk>",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hiram-labs/component-bundler.git"
+  },
+  "scripts": {
+    "start": "start-storybook -p 6006 -s public",
+    "add-comp": "node ./scripts/addComp.js && yarn fix-gts",
+    "add-svg": "yarn clean-svg && node ./scripts/addSvg.js && yarn fix-gts",
+    "add-doc": "node ./scripts/addDoc.js && yarn fix-gts",
+    "clean-svg": "svgo -f ./src/assets/svg -o ./src/assets/svg",
+    "check-changes": "echo \"no script yet\" && exit 0",
+    "build-storybook": "build-storybook -s public -o gh-pages",
+    "build-types": "ttsc",
+    "build-dist": "cross-env BABEL_ENV=production babel src -d dist --extensions \".js\",\".ts\",\".tsx\" --copy-files --no-copy-ignored",
+    "build": "yarn build-types; yarn build-dist",
+    "release": "auto shipit --base-branch=master --only-publish-with-release-label",
+    "test": "jest --passWithNoTests",
+    "lint-css": "stylelint './src/**/*.ts'",
+    "lint-gts": "gts lint",
+    "clean-gts": "gts clean",
+    "fix-gts": "gts fix",
+    "preinstall": "npx only-allow yarn"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.13.17",
+    "lodash": "^4.17.21",
+    "polished": "^4.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "styled-components": "^5.2.3",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.16",
+    "@babel/plugin-transform-runtime": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@storybook/addon-essentials": "^6.2.8",
+    "@storybook/addon-links": "^6.2.8",
+    "@storybook/node-logger": "^6.2.8",
+    "@storybook/preset-create-react-app": "^3.1.7",
+    "@storybook/react": "^6.2.8",
+    "@svgr/core": "^5.5.0",
+    "@svgr/plugin-jsx": "^5.5.0",
+    "@svgr/plugin-prettier": "^5.5.0",
+    "@testing-library/dom": "^7.30.4",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^14.11.2",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/styled-components": "^5.1.9",
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "^4.0.1",
+    "auto": "^10.25.0",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "babel-plugin-styled-components": "^1.12.0",
+    "chalk": "^4.1.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.8.1",
+    "eslint-plugin-react": "^7.20.6",
+    "fs-extra": "^9.1.0",
+    "gts": "^3.1.0",
+    "inquirer": "^8.0.0",
+    "js-yaml": "^4.1.0",
+    "pre-commit": "^1.2.2",
+    "prettier": "^2.0.5",
+    "stylelint": "^13.12.0",
+    "stylelint-config-recommended": "^4.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0",
+    "svgo": "^2.3.0",
+    "ttypescript": "^1.5.12",
+    "typescript": "^4.0.3",
+    "typescript-transform-paths": "^2.2.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

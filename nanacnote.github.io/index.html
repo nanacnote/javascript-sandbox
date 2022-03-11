@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+      }
+      .container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100%;
+      }
+      .profile-pic {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 1px grey;
+        height: 175px;
+        width: 175px;
+        margin: 25px;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      .quote {
+        text-align: center;
+        padding: 50px 25%;
+      }
+      .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      a {
+        text-decoration: none;
+        color: #40a9ff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile-pic">
+        <img
+          src="public/profile_pic.jpg"
+          alt="profile-pic"
+          style="width: 275px;"
+        />
+      </div>
+      <div class="links">
+        <a href="https://github.com/nanacnote">GitHub</a>
+        <a href="https://www.linkedin.com/in/owusu-k-adjei-bohyen-b9b4bb83/"
+          >LinkedIn</a
+        >
+        <a href="https://www.instagram.com/cedi_note/">Instagram</a>
+        <a href="http://www.adjei-bohyen.me">Website</a>
+      </div>
+      <div class="quote">
+        <span>
+          <i>
+            To act wisely when the time for action comes, to wait patiently when
+            it is time for repose, put man in accord with the tides.
+          </i>
+        </span>
+      </div>
+      <div class="quote-by">
+        <i> - H P Blavatsky </i>
+      </div>
+    </div>
+  </body>
+</html>

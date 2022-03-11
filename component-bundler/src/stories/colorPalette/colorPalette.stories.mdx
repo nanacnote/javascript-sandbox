@@ -1,0 +1,80 @@
+import {Meta} from '@storybook/addon-docs/blocks';
+
+import {hexToRgb} from '@utils/domHelpers';
+import colors from '@shared/colors';
+
+<Meta title="Hiram Labs/Color palette" />
+
+<style>{`
+    .tip {
+    display: inline-block;
+    border-radius: 1em;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: 700;
+    background: #E7FDD8;
+    color: #66BF3C;
+    padding: 4px 12px;
+    margin-right: 10px;
+    vertical-align: top;
+  }
+
+  .tip-wrapper {
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .tip-wrapper code {
+    font-size: 12px;
+    display: inline-block;
+  }
+
+  .item {
+    height: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .item__colorCard {
+    width: 30%;
+    height: 50px;
+    margin-right: 15px;
+    border: solid 2px #DCDCDC;
+    border-radius: 5px;
+  }
+
+  .item__title {font-weight: bold;}
+  .item__hexDef {color: #808080}
+  .item__rgbDef {color: #808080}
+  .item__opaDef {color: #808080}
+`}</style>
+
+## **Hiram Labs //** <span class="text-secondary" style={{fontSize: "0.75em"}}>color palette</span>
+
+<div>
+  <div class="container mt-5">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+    {
+      Object.keys(colors.hex).map(key =>
+        <div key={key} class="col">
+          <div class="item d-flex flex-column">
+            <div class="item__colorCard" style={{backgroundColor: colors.hex[key]}}/>
+            <div>
+              <div class="item__title">{key}</div>
+              <div class="item__hexDef">{colors.hex[key]}</div>
+              <div class="item__rgbDef">{`rgb(${hexToRgb(colors.hex[key]).join()})`}</div>
+            </div>
+          </div>
+        </div>
+      )
+    }
+    </div>
+  </div>
+
+  <div class="tip-wrapper">
+    <span className="tip">Tip</span>Edit the Markdown in{" "}
+    <code>src/stories/ColorPalette.stories.mdx</code>
+  </div>
+</div>

@@ -1,0 +1,62 @@
+{
+  "name": "riot-js-scaffold",
+  "packageManager": "yarn@3.2.0",
+  "description": "Scaffold",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": ">=12.0.0 <=14.x.x"
+  },
+  "scripts": {
+    "test": "nyc --require esm --require jsdom-global/register --require @riotjs/register mocha src/**/*.spec.js",
+    "cov": "nyc report --reporter=text-lcov",
+    "cov-html": "nyc report --reporter=html",
+    "build": "webpack --mode production",
+    "prepublishOnly": "npm test",
+    "start": "webpack serve --mode development --hot --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanacnote/javascript-sandbox.git"
+  },
+  "author": "Owusu K. <adjeibohyen@hotmail.co.uk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nanacnote/javascript-sandbox/issues"
+  },
+  "homepage": "https://github.com/nanacnote/javascript-sandbox/tree/master/roit-ts-scaffold#readme",
+  "dependencies": {
+    "@riotjs/hot-reload": "^6.0.0",
+    "@riotjs/lazy": "^2.0.1",
+    "@riotjs/route": "^8.0.0",
+    "axios": "^0.26.1",
+    "js-cookie": "^3.0.1",
+    "lodash": "^4.17.21",
+    "mobx": "^6.5.0",
+    "riot": "^6.0.2"
+  },
+  "devDependencies": {
+    "@riotjs/compiler": "^6.0.1",
+    "@riotjs/register": "^5.0.0",
+    "@riotjs/webpack-loader": "^6.0.0",
+    "chai": "^4.3.6",
+    "css-loader": "^6.2.0",
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "esm": "^3.2.25",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "jsdom": "^16.6.0",
+    "jsdom-global": "^3.0.2",
+    "mini-css-extract-plugin": "^2.1.0",
+    "mocha": "^8.4.0",
+    "nyc": "^15.1.0",
+    "prettier": "2.6.2",
+    "sinon": "^13.0.1",
+    "webpack": "^5.47.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

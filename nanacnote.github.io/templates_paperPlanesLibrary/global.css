@@ -1,0 +1,95 @@
+/* standard css to reset whole page start */
+
+* {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ outline: 0;
+ background: transparent;
+}
+/* standard css to reset whole page end */
+
+
+html {
+ font-family: "kefa", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+   "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+   "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+ position: relative;
+ background-image: linear-gradient(to bottom, #2F3249, #191D32);
+ background-attachment: fixed;
+ height: 100%;
+}
+
+
+/* global navbar styling start */
+#globalNavbar{
+  position: relative;
+  box-sizing: border-box;
+  margin: 0 0.5% 5% 0.5%;
+  border-bottom: 2px solid #ffffff;
+  padding: 2% 5%;
+  text-align: right;
+}
+
+#globalNavbar a{
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: calc(0.5rem + 1vw);
+  color: #ffffff;
+}
+
+#globalNavbar a:nth-child(2), #globalNavbar a:nth-child(3){
+  padding-right: 3vw;
+}
+
+#globalNavbar a img{
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(0, -50%);
+  width: 5%;
+}
+/* global navbar styling ends */
+
+#content{
+  margin: 0 5% 0 5%;
+  position: relative;
+  text-align: center;
+}
+
+/* global bottom logo styling starts */
+#globalBottom__logo {
+  text-align: center;
+  margin: 5% 0 0 0;
+}
+
+#globalBottom__logo img{
+  width: 15vw;
+}
+
+/* global bottom logo styling ends */
+
+
+/* global footer styling starts */
+
+#globalFooter {
+  position: relative;
+  box-sizing: border-box;
+  border-top: 2px solid #ffffff;
+  margin: 2.5% 0.5% 0% 0.5%;
+  text-align: center;
+}
+
+#globalFooter p{
+  color: #CCCCCC;
+  margin: 2.5% 0 0.5% 0;
+  font-size: calc(0.5rem + 0.3vw);
+  font-weight: lighter;
+  font-style: italic;
+}
+
+/* global footer styling ends */

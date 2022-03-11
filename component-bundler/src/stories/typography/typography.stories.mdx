@@ -1,0 +1,78 @@
+import {Meta} from '@storybook/addon-docs/blocks';
+
+import typography from '@shared/typography';
+import {keyToCamel} from '@utils/domHelpers';
+
+<Meta title="Hiram Labs/Typography" />
+
+<style>{`
+    .tip {
+    display: inline-block;
+    border-radius: 1em;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: 700;
+    background: #E7FDD8;
+    color: #66BF3C;
+    padding: 4px 12px;
+    margin-right: 10px;
+    vertical-align: top;
+  }
+
+  .tip-wrapper {
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .tip-wrapper code {
+    font-size: 12px;
+    display: inline-block;
+  }
+
+  .item {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .item__details {
+    display: inline-flex;
+    color: #808080 ;
+  }
+`}</style>
+
+## **Hiram Labs //** <span class="text-secondary" style={{fontSize: "0.75em"}}>typography</span>
+
+<div>
+  <div class="container mt-5">
+    <ul class="list-group list-group-flush">
+    {
+      Object.keys(typography.preset).map(key =>
+        <li key={key} class="item list-group-item list-group-item-action">
+          <div class="item d-flex flex-wrap">
+            <div class="w-50"
+              style={{...keyToCamel(typography.preset[key])}}
+            >
+              {key}
+            </div>
+            <div class="item__details w-50">
+              <pre>
+                <code>
+                  {JSON.stringify(typography.preset[key]).replace(/"/g, "").replace(/,/g,"\n").replace(/{/g,"").replace(/}/g,"")}
+                </code>
+              </pre>
+            </div>
+          </div>
+        </li>
+      )
+    }
+    </ul>
+
+  </div>
+
+  <div class="tip-wrapper">
+    <span className="tip">Tip</span>Edit the Markdown in{" "}
+    <code>src/stories/typography.stories.mdx</code>
+  </div>
+</div>

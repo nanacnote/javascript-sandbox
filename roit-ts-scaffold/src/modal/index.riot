@@ -1,0 +1,59 @@
+<modal>
+    <div id="modal-container" class="hidden" onclick={ handleDismiss }>
+        <route path="(.+?\?type=modal\&id\=.*)" on-mounted={handleMounted}>
+            <template-modal if={ route.searchParams.get('id') === "template" } handleDismiss={ handleDismiss } data-modal-selected={route.searchParams.get('id') === "template" ? true : false} />
+        </route>
+    </div>
+
+    <script>
+        import { router } from '@riotjs/route';
+        import TemplateModal from "./template/template.riot";
+
+        export default {
+            components: { TemplateModal },
+            state: {
+                href: null,
+                parent:null,
+                child:null,
+            },
+            handleMounted(r) {
+                console.log(r)
+                this.update({
+                    href: r.href,
+                    parent: this.$("#modal-container"),
+                    child: this.$("[data-modal-selected]")
+                })
+                if(this.state.child){
+                    this.state.parent.classList.remove("hidden")
+                    this.state.child.onclick = (e) => {
+                        e.stopImmediatePropagation()
+                    }
+                }
+            },
+            handleDismiss(e) {
+                router.push(this.state.href ? this.state.href.match(/.+?(?=\?type\=modal)/)[0] :"/")
+                this.state.parent.classList.add("hidden")
+                this.update({
+                    href: null,
+                    parent: null,
+                    child: null,
+                })
+            },
+        };
+    </script>
+
+    <style>
+        :host #modal-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: var(--modal-z-index);
+        }
+    </style>
+</modal>

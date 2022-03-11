@@ -1,0 +1,28 @@
+{
+  "name": "postgres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker-compose up -d",
+    "stop": "docker-compose down",
+    "queries": "./index.js",
+    "queries:force": "node ./index.js",
+    "add:dump": "./scripts/addDump.js",
+    "client": "docker exec -it postgres psql -d uea_cmp -U postgres -W",
+    "pretty": "npx prettier --write ."
+  },
+  "author": "c-note",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^9.1.0",
+    "js-yaml": "^4.1.0",
+    "knex": "^0.95.4",
+    "pg": "^8.5.1",
+    "sql-formatter": "^4.0.2",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
+}

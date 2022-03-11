@@ -1,0 +1,11 @@
+# dev documentation
+docs
+
+# unit tests
+tests
+
+# dependencies
+node_modules
+
+# misc
+.DS_Store

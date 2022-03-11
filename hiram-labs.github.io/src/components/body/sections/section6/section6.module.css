@@ -1,0 +1,19 @@
+/* scrollbar */
+.section6 ::-webkit-scrollbar {
+  display: block;
+  visibility: hidden;
+}
+.section6:hover ::-webkit-scrollbar {
+  visibility: visible;
+}
+.section6:hover ::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(136, 136, 136, 0.25);
+}
+.section6:hover ::-webkit-scrollbar-thumb:hover {
+  background: rgba(136, 136, 136, 1);
+}
+
+.section6 {
+  max-width: 1500px;
+}

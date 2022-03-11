@@ -1,0 +1,637 @@
+{
+	"id": 0,
+	"name": "create-package-app - v1.0.0",
+	"kind": 0,
+	"flags": {},
+	"originalName": "create-package-app",
+	"children": [
+		{
+			"id": 17,
+			"name": "\"Directory\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nana/Desktop/side_projects/create-package-app/src/modules/Directory.ts",
+			"children": [
+				{
+					"id": 18,
+					"name": "Directory",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"children": [
+						{
+							"id": 24,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Main class object for findOut library",
+								"returns": "A new Directory object",
+								"tags": [
+									{
+										"tag": "example",
+										"text": "\n const foo = new Directory({category: \"HOSPITALS\"}, 'placeholder')\n// foo\n"
+									}
+								]
+							},
+							"signatures": [
+								{
+									"id": 25,
+									"name": "new Directory",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Main class object for findOut library",
+										"returns": "A new Directory object",
+										"tags": [
+											{
+												"tag": "example",
+												"text": "\n const foo = new Directory({category: \"HOSPITALS\"}, 'placeholder')\n// foo\n"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 26,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"shortText": "determines how to interact with the API"
+											},
+											"type": {
+												"type": "reference",
+												"name": "TParams"
+											}
+										},
+										{
+											"id": 27,
+											"name": "another",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"shortText": "just another parameter as a placeholder"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 18,
+										"name": "Directory"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "Directory.ts",
+									"line": 16,
+									"character": 41
+								}
+							]
+						},
+						{
+							"id": 23,
+							"name": "newsMonth",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "Directory.ts",
+									"line": 16,
+									"character": 18
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "string"
+										}
+									},
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									}
+								]
+							}
+						},
+						{
+							"id": 21,
+							"name": "newsToday",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "Directory.ts",
+									"line": 14,
+									"character": 18
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "string"
+										}
+									},
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									}
+								]
+							}
+						},
+						{
+							"id": 22,
+							"name": "newsWeek",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "Directory.ts",
+									"line": 15,
+									"character": 17
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "string"
+										}
+									},
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									}
+								]
+							}
+						},
+						{
+							"id": 28,
+							"name": "numberIn",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 29,
+									"name": "numberIn",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isPublic": true,
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "gets number of selected category item in a region",
+										"returns": "number\n",
+										"tags": [
+											{
+												"tag": "method",
+												"text": ""
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 30,
+											"name": "param",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "stringLiteral",
+														"value": "ENGLAND"
+													},
+													{
+														"type": "stringLiteral",
+														"value": "WALES"
+													},
+													{
+														"type": "stringLiteral",
+														"value": "SCOTLAND"
+													},
+													{
+														"type": "stringLiteral",
+														"value": "NORTHEN IRELAND"
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											},
+											{
+												"type": "unknown",
+												"name": "100"
+											},
+											{
+												"type": "unknown",
+												"name": "35"
+											},
+											{
+												"type": "unknown",
+												"name": "75"
+											},
+											{
+												"type": "unknown",
+												"name": "50"
+											},
+											{
+												"type": "unknown",
+												"name": "98"
+											},
+											{
+												"type": "unknown",
+												"name": "10"
+											},
+											{
+												"type": "unknown",
+												"name": "43"
+											},
+											{
+												"type": "unknown",
+												"name": "27"
+											}
+										]
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "Directory.ts",
+									"line": 42,
+									"character": 17
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								24
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								23,
+								21,
+								22
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								28
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "Directory.ts",
+							"line": 11,
+							"character": 22
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						18
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "Directory.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "\"_getNews\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nana/Desktop/side_projects/create-package-app/src/modules/_getNews.ts",
+			"children": [
+				{
+					"id": 7,
+					"name": "_getNews",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 8,
+							"name": "_getNews",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Function to get new items",
+								"returns": "object\n"
+							},
+							"parameters": [
+								{
+									"id": 9,
+									"name": "institution",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"text": "A union type of either \"HOSPITALS\" or \"UNIVERSITIES\""
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "stringLiteral",
+												"value": "HOSPITALS"
+											},
+											{
+												"type": "stringLiteral",
+												"value": "UNIVERSITIES"
+											}
+										]
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "reflection",
+										"declaration": {
+											"id": 10,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"children": [
+												{
+													"id": 13,
+													"name": "newsMonth",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "_getNews.ts",
+															"line": 26,
+															"character": 17
+														}
+													],
+													"type": {
+														"type": "array",
+														"elementType": {
+															"type": "intrinsic",
+															"name": "string"
+														}
+													},
+													"defaultValue": "[\"hospitals news item 1\", \"hospitals news item 2\"]"
+												},
+												{
+													"id": 11,
+													"name": "newsToday",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "_getNews.ts",
+															"line": 24,
+															"character": 17
+														}
+													],
+													"type": {
+														"type": "array",
+														"elementType": {
+															"type": "intrinsic",
+															"name": "string"
+														}
+													},
+													"defaultValue": "[\"hospitals news item 1\", \"hospitals news item 2\"]"
+												},
+												{
+													"id": 12,
+													"name": "newsWeek",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "_getNews.ts",
+															"line": 25,
+															"character": 16
+														}
+													],
+													"type": {
+														"type": "array",
+														"elementType": {
+															"type": "intrinsic",
+															"name": "string"
+														}
+													},
+													"defaultValue": "[\"hospitals news item 1\", \"hospitals news item 2\"]"
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														13,
+														11,
+														12
+													]
+												}
+											]
+										}
+									}
+								]
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "_getNews.ts",
+							"line": 20,
+							"character": 24
+						}
+					]
+				},
+				{
+					"id": 14,
+					"name": "foo",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"comment": {
+						"shortText": "second function"
+					},
+					"signatures": [
+						{
+							"id": 15,
+							"name": "foo",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "second function"
+							},
+							"parameters": [
+								{
+									"id": 16,
+									"name": "arg",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "takes a string the quick brown fox jumps over the lazy dogs\n"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "_getNews.ts",
+							"line": 44,
+							"character": 16
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						7,
+						14
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "_getNews.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Modules",
+			"kind": 1,
+			"children": [
+				17,
+				1
+			]
+		}
+	]
+}

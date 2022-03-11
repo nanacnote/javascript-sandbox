@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html{
+    font-family: 'Roboto Slab', serif;
+    color: #3e3e3e;
+}
+
+body{
+    display: block;
+    position: relative;
+    background-image: url("images/background_image_1.jpg");
+    background-repeat: no-repeat;
+    background-size: 130% 120%;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+a{
+    text-decoration: none;
+    color: #3e3e3e;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#nav-section{
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    background: #3e3e3e;
+    width: 100%;
+    height: 10%;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+}
+
+/* #menu::after{
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    background: #3e3e3e;
+    width: 90%;
+    height: 1vmin;
+} */
+
+.company-box{
+    position: absolute;
+    left: 2.5%;
+    display: flex;
+    align-self: center;
+    margin-left: 7%;
+}
+
+.main-logo{
+    align-self: center;
+    font-size: xx-large;
+    font-weight: 900;
+    color: #fe165f;
+    margin-right: 10%;
+}
+
+.main-logo::after{
+    content: "Z";
+    position: absolute;
+    top: 0;
+    left: 5%;
+    font-size: xx-large;
+    font-weight: 900;
+    color: #16feb5;
+    padding-right: 10%;
+}
+
+.company-name{
+    align-self: center;
+    font-size: xx-large;
+    font-weight: 800;
+    color: white;
+}
+
+.menu-links-box{
+    position: absolute;
+    right: 2.5%;
+    display: flex;
+    align-self: center;
+    margin-right: 7%;
+}
+
+.rec-links{
+    box-sizing: border-box;
+    border: solid 2px #d56665;
+    border-radius: 2.5px;
+    background: #d56665;
+    padding: 1vmin 3vmin 1vmin 3vmin;
+}
+
+.about-link{
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.about-link:hover{
+    color: #3e3e3e;
+}
+
+#main{
+    z-index: 1;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.heading-box{
+    position: absolute;
+    display: block;
+    top: 35%;
+    width: 50%;
+    font-size: 7.5vmin;
+    font-weight: 800;
+}
+
+.heading-box>p:nth-child(1){
+    display: table;
+    background: #b35fff;
+    color: black;
+    font-family: 'Dosis', sans-serif;
+    font-size: 10vmin;
+    font-weight: 900;
+    padding: 0 20% 1% 10%;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+}
+
+.heading-box>p:nth-child(2){
+    display: table;
+    background: #5fffb3;
+    margin: 2.5% 0 2.5% 0;
+    padding: 1% 10% 1% 10%;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+}
+
+.heading-box>p:nth-child(3){
+    background: #ffb35f;
+    text-align: right;
+    font-family: 'Courgette', cursive;
+    font-size: 5vmin;
+    font-weight: 500;
+    padding: 1% 10% 1% 10%;
+    color: white;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+
+}
+
+.auth-box{
+    /* background: black; */
+    display: block;
+    position: absolute;
+    top: 30%;
+    right: 12.5%;
+
+    padding: 1%;
+}
+
+.auth-box div{
+    position: relative;
+    display: flex;
+    margin: 0.5rem 0 0.5rem 0;
+    font-size: xx-large;
+    font-weight: 600;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+}
+
+.auth-box div a{
+    color: white;
+}
+
+.linkedin-link{
+    width: 100%;
+    text-align: center;
+    background-color: #0e76a8;
+    border-color: #0e76a8;
+}
+
+.facebook-link{
+    width: 100%;
+    text-align: center;
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+
+.twitter-link{
+    width: 100%;
+    text-align: center;
+    background-color: #00acee;
+    border-color: #00acee;
+}
+
+.login-link{
+    margin: 0 0.25rem 0 0;
+}
+
+.signup-link{
+    margin: 0 0 0 0.25rem;
+}
+
+.login-link:hover, .signup-link:hover, .facebook-link:hover, .linkedin-link:hover, .twitter-link:hover{
+    transform: scale(1.1, 1.1);
+    transition: 0.5s ease-in-out;
+}
+
+/* on click extra classes */
+/* __________________________________________________________ */
+/* container for all pop up boxes */
+#hidden-popup-boxes{
+    position: relative;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+/* about us box drop */
+.open-about{
+    border: solid 2px white;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+    border-radius: 2.5px;
+    box-sizing: border-box;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80vw;
+    height: 60%;
+    padding: 0 5% 0 5%;
+    overflow: auto;
+    transition: background 0.25s ease-in , border 0.25s ease-in;
+}
+
+.open-about img{
+    position: absolute;
+    top: 5%;
+    left: 93%;
+    width: 3.5%;
+    height: auto;
+}
+
+.open-about p{
+    text-justify: auto;
+}
+
+/* signup form styling */
+#signup-form{
+    display: none;
+}
+
+.form-box-close img{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    width: 5%;
+    height: auto;
+    float: left;
+}
+
+.signup-form-popup{
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+    box-sizing: border-box;
+    z-index: 1;
+    display: block !important;
+    position: absolute;
+    top: 12%;
+    left: 30%;
+    width: 40%;
+    height: 85%;
+    overflow: scroll;
+    background: white;
+    padding-top: 2.5%;
+}
+
+#signup-form-top{
+    box-sizing: border-box;
+    text-align: right;
+    padding: 5% 5% 5% 5%;
+}
+
+#form-title{
+    font-size: xx-large;
+    margin-bottom: 1%;
+}
+
+.company-name-color-1{
+    color: #fe165f;
+}
+
+.company-name-color-2{
+    color: #16feb5;
+}
+
+#signup-form-bottom{
+    box-sizing: border-box;
+    padding: 5% 5% 5% 5%;
+}
+
+form label{
+    font-size: larger;
+}
+
+form input, textarea{
+    margin: 2.5% 2.5%;
+}
+
+#form-name, #form-email, #form-age{
+    width: 60%;
+    font-size: large;
+    border-bottom: solid 2px #d56665;
+}
+
+#form-format{
+    border: solid 2px #d56665;
+    margin: 2.5% 0 0 2.5%;
+    font-size: medium;
+}
+
+textarea{
+    width: 90%;
+    border: solid 2px #d56665;
+    font-size: large;
+}
+
+#submit-botton{
+    text-align: right;
+}
+
+#form-submit{
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+}
+
+/* animation section  */
+/* __________________________________________________________ */
+/* puslsing main text  */
+.heading-box>p:nth-child(1){
+    transform: scale(1);
+    animation: pulse 7.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.90);
+    }
+
+    70% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.90);
+    }
+}
+
+/* puslsing main text  */
+.heading-box>p:nth-child(2){
+    transform: scale(1);
+    animation: pulse 2.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.97);
+    }
+
+    70% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.97);
+    }
+}
+/* puslsing main text  */
+.heading-box>p:nth-child(3){
+    transform: scale(1);
+    animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.98);
+    }
+
+    70% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.98);
+    }
+}
+
+.sm-display{
+    visibility: hidden;
+}
+
+/* media query section */
+@media only screen and (max-width: 800px){
+    #main{
+        display: none;
+    }
+    #signup-form{
+        visibility: hidden;
+    }
+
+    .sm-display{
+        visibility: visible;
+        display: flex;
+        text-align: center;
+        height: 100vh;
+        color: white;
+        align-items: center;
+        justify-content: center;
+    }
+}

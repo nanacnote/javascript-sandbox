@@ -1,0 +1,63 @@
+<sign-in>
+  <div id="sign-in-container">
+    <h3>Sign In</h3>
+    <form onsubmit={ handleSubmit }>
+      <div class="item">
+        <label for="sign-in-email-input">Email</label>
+        <input id="sign-in-email-input" type="email" name="username" placeholder="hello@email.com" required>
+      </div>
+      <div class="item">
+        <label for="sign-in-pass-input">Password</label>
+        <input id="sign-in-pass-input" type="password" name="password" autocomplete>
+      </div>
+      <div class="btn-wrapper">
+        <button type="submit">Send</button>
+        <div>
+          <a href={c.path.AUTH_SIGN_UP}>New User</a>
+          <a href={c.path.AUTH_PASS_RESET_REQ}>Forgot password</a>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    export default {
+      components: {},
+      handleSubmit(e) {
+        e.preventDefault()
+        const payload = new FormData(this.$('form'))
+        this.api.auth.signIn(payload)
+      },
+    }
+  </script>
+
+  <style>
+    :host #sign-in-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    :host a {
+      display: block;
+    }
+
+    :host button {
+      margin: 12.5px 0;
+      width: 100%;
+    }
+
+    :host .item {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 12.5px;
+    }
+    
+    :host .btn-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+  </style>
+</sign-in>

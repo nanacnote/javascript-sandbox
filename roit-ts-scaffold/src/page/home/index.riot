@@ -1,0 +1,55 @@
+<home-page>
+    <div id="landing-main">
+        <image-display name="hiramEye" />
+        <span>Hiram Labs Ltd.</span>
+        <br/>
+        <a href={c.path.MODAL_TEMPLATE}>modal</a>
+    </div>
+
+    <script>
+        import ImageDisplay from "../../image/index.riot";
+
+        export default {
+            components: { ImageDisplay },
+            onBeforeMount(props, state) {
+                // before the component is mounted
+            },
+            onMounted(props, state) {
+                // right after the component is mounted on the page
+            },
+            onBeforeUpdate(props, state) {
+                // allows recalculation of context data before the update
+            },
+            onUpdated(props, state) {
+                // right after the component template is updated after an update call
+            },
+            onBeforeUnmount(props, state) {
+                // before the component is removed
+            },
+            onUnmounted(props, state) {
+                // when the component is removed from the page
+            }
+        };
+    </script>
+
+    <style>
+        #landing-main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+
+        #landing-main img {
+            width: 450px;
+            height: 400px;
+        }
+        
+        #landing-main span {
+            margin: 10px;
+        }
+    </style>
+</home-page>

@@ -1,0 +1,62 @@
+<sign-up>
+  <div id="sign-up-container">
+    <h3>Sign Up</h3>
+    <form onsubmit={ handleSubmit }>
+      <div class="item">
+        <label for="sign-up-email-input">Email</label>
+        <input id="sign-up-email-input" type="email" name="email" placeholder="hello@email.com" required>
+      </div>
+      <div class="item">
+        <label for="sign-up-pass-input">Password</label>
+        <input id="sign-up-pass-input" type="password" name="password" autocomplete>
+      </div>
+      <div class="btn-wrapper">
+        <button type="submit">Send</button>
+        <div>
+          <a href={c.path.AUTH_SIGN_IN}>Existing User</a>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    export default {
+      components: {},
+      handleSubmit(e) {
+        e.preventDefault()
+        const payload = Object.fromEntries(new FormData(this.$('form')))
+        this.api.auth.signUp(payload)
+      },
+    }
+  </script>
+
+  <style>
+    :host #sign-up-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    :host a {
+      display: block;
+    }
+
+    :host button {
+      margin: 12.5px 0;
+      width: 100%;
+    }
+
+    :host .item {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 12.5px;
+    }
+    
+    :host .btn-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+  </style>
+</sign-up>

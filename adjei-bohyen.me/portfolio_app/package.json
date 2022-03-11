@@ -1,0 +1,73 @@
+{
+  "name": "portfolio-app",
+  "author": "Owusu K",
+  "license": "MIT",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.2.0",
+    "npm": "6.14.4"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "type-check": "tsc --pretty --noEmit",
+    "format": "prettier --write **/*.{js,ts,tsx} **/*/*.{js,ts,tsx}",
+    "lint": "eslint . --ext ts --ext tsx --ext js",
+    "test": "jest",
+    "test-all": "yarn lint && yarn type-check && yarn test"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "yarn run type-check"
+    }
+  },
+  "lint-staged": {
+    "*.@(ts|tsx)": [
+      "yarn lint",
+      "yarn format"
+    ]
+  },
+  "dependencies": {
+    "@types/howler": "^2.2.1",
+    "@types/jquery": "^3.5.1",
+    "@types/lodash": "^4.14.157",
+    "@types/marked": "^1.1.0",
+    "@types/matter-js": "^0.14.4",
+    "@types/pouchdb": "^6.4.0",
+    "bootstrap": "^4.5.0",
+    "gsap": "^3.3.4",
+    "howler": "^2.2.0",
+    "jquery": "^3.5.1",
+    "marked": "^1.1.1",
+    "matter-js": "^0.14.2",
+    "next": "^9.5.5",
+    "pouchdb": "^7.2.2",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-countup": "^4.3.3",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
+    "sass": "^1.26.9"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^10.0.1",
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.5",
+    "@types/react": "^16.9.27",
+    "@types/testing-library__react": "^10.0.0",
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/parser": "^2.25.0",
+    "babel-jest": "^25.2.3",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-react": "^7.19.0",
+    "husky": "^4.2.3",
+    "jest": "^25.2.3",
+    "jest-watch-typeahead": "^0.5.0",
+    "lint-staged": "^10.0.10",
+    "prettier": "^2.0.2",
+    "typescript": "^3.8.3"
+  }
+}

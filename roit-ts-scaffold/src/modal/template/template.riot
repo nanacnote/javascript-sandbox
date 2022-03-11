@@ -1,0 +1,30 @@
+<template-modal>
+    <div id="modal-template-container">
+        <div id="modal-template-content">An example modal</div>
+        <button id="modal-template-dismiss" onclick={props.handleDismiss}>
+            dismiss
+        </button>
+    </div>
+
+    <script>
+        export default {
+            components: {},
+            onBeforeMount(props, state) {},
+            onMounted(props, state) {},
+            onBeforeUpdate(props, state) {},
+            onUpdated(props, state) {},
+            onBeforeUnmount(props, state) {},
+            onUnmounted(props, state) {}
+        };
+    </script>
+
+    <style>
+        :host #modal-template-container {
+            width: min(85vw, 850px);
+            height: min(85vh, 850px);
+            border-radius: 5px;
+            padding: 10px;
+            background-color: var(--color-grey-1);
+        }
+    </style>
+</template-modal>

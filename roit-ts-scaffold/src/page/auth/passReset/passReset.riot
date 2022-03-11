@@ -1,0 +1,58 @@
+<pass-reset>
+  <div id="pass-reset-container">
+    <h3>Reset Password</h3>
+    <form onsubmit={ handleSubmit }>
+      <div class="item">
+        <label for="pass-reset-pass-input">New Password</label>
+        <input id="pass-reset-pass-input" type="password" name="password" autocomplete>
+      </div>
+      <div class="btn-wrapper">
+        <button type="submit">Send</button>
+        <div class="ml-auto">
+          <a href={c.path.AUTH_PASS_RESET_REQ}>Resend Link</a>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    export default {
+      components: {},
+      handleSubmit(e) {
+        e.preventDefault()
+        const payload = Object.fromEntries(new FormData(this.$('form')))
+        this.api.auth.passReset(payload)
+      },
+    }
+  </script>
+
+  <style>
+    :host #pass-reset-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    :host a {
+      display: block;
+    }
+
+    :host button {
+      margin: 12.5px 0;
+      width: 100%;
+    }
+
+    :host .item {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 12.5px;
+    }
+    
+    :host .btn-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+  </style>
+</pass-reset>

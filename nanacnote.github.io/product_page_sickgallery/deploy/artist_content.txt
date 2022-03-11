@@ -1,0 +1,214 @@
+<div class="nav-links-info-header">
+    <h2 style="margin-bottom: 0.5%">ARTIST DIRECTORY</h2>
+    <p>all artist showcased by SICK GALLERY</p>
+</div>
+<div class="nav-links-info-body">
+    <div>
+    <h3>A</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+    <div>
+    <h3>B</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+    <div>
+    <h3>C</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+    <div>
+    <h3>D</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+    <div>
+    <h3>E</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+    <div>
+    <h3>F</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+    <div>
+    <h3>G</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+    <div>
+    <h3>H</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+    <div>
+    <h3>I</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+    <div>
+    <h3>J</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+    <div>
+    <h3>K</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+    <div>
+    <h3>L</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+    <div>
+    <h3>M</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+    <div>
+    <h3>N</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+    <div>
+    <h3>O</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+    <div>
+    <h3>P</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+    <div>
+    <h3>Q</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+    <div>
+    <h3>R</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+    <div>
+    <h3>S</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+    <div>
+    <h3>T</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+    <div>
+    <h3>U</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+    <div>
+    <h3>V</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+    <div>
+    <h3>W</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+    <div>
+    <h3>X</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+    <div>
+    <h3>Y</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+    <div>
+    <h3>Z</h3>
+    <a href="">aaron Brown</a></br>
+    <a href="">able Cain</a></br>
+    <a href="">accray Louis</a></br>
+    <a href="">adusi Kofi</a></br>
+    </div>
+
+</div>

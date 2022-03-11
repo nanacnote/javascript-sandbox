@@ -1,0 +1,78 @@
+.searchInput{
+  position: relative;
+  margin-bottom: 4%;
+}
+
+.searchInput input:first-child{
+  -webkit-appearance: textfield;/* safari fix */
+  background-color: #fff;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  box-shadow: 0 7px 4px #161A2DA6;
+  border-radius: 50pt;
+  height: calc(1rem + 3vw);
+  width: 50%;
+  padding: 0 2% 0 2%;
+  font-size: calc(0.5rem + 1.25vw);
+  transition: transform 0.5s;
+}
+
+/* scale transition on search input bar */
+.searchInput input:first-child:focus {
+  transform: scale(1.025, 1.025);
+}
+
+/* search icon styling and positioning */
+.searchInput input:last-child{
+  width: 2.5%;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.introText{
+  margin-bottom: 2.5%;
+}
+
+.introText h1{
+  margin-bottom: 2.5%;
+  color: #fff;
+  font-size: calc(1rem + 5vw);
+}
+
+.introText p{
+  margin-bottom: 5%;
+  color: #CCCCCC;
+  font-size: calc(0.5rem + 2vw);
+}
+
+/* contribute button styling */
+.addToLibrary__button{
+  position: relative;
+}
+
+.addToLibrary__button button{
+  display: block;
+  border: 1px solid #FF6B6B;
+  border-radius: 10pt;
+  margin: 0 auto 0.5% auto;
+  background-color: #FF6B6B;
+  color: #fff;
+  padding: 0.35% 2% 0.55% 2%;
+  font-size: calc(0.5rem + 1.5vw);
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.addToLibrary__button a{
+  display: block;
+  text-decoration: none;
+  color: #CCCCCC;
+  font-size: calc(0.5rem + 0.25vw);
+  transition: transform 0.5s;
+}
+
+.addToLibrary__button a:hover {
+  transform: scale(1.05, 1.05);
+}

@@ -1,0 +1,24 @@
+{
+  "ignore": ["**/@types/", "**/*.stories.tsx"],
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-typescript",
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    [
+      "module-resolver",
+      {
+        "root": ["."],
+        "alias": {
+          "@assets": "./src/assets",
+          "@shared": "./src/shared",
+          "@stories": "./src/stories",
+          "@utils": "./src/utils"
+        }
+      }
+    ],
+    ["styled-components", {"ssr": true}]
+  ]
+}
