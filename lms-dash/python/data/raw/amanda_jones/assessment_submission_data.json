@@ -1,0 +1,198 @@
+{
+  "sections": {
+    "eye_tracking": {
+      "Her feet got hurt.": {
+        "default": { "correct": false, "answered": true, "time_taken": 23465 }
+      },
+      "They cut the long weeds.": {
+        "default": { "correct": true, "answered": true, "time_taken": 14195 }
+      }
+    },
+    "tricky_words": {
+      "be": {
+        "default": { "correct": true, "answered": true, "time_taken": 1098 }
+      },
+      "he": {
+        "default": { "correct": true, "answered": true, "time_taken": 3557 }
+      },
+      "me": {
+        "default": { "correct": true, "answered": true, "time_taken": 1098 }
+      },
+      "my": {
+        "default": { "correct": true, "answered": true, "time_taken": 2518 }
+      },
+      "we": {
+        "default": { "correct": true, "answered": true, "time_taken": 1387 }
+      },
+      "all": {
+        "default": { "correct": true, "answered": true, "time_taken": 1268 }
+      },
+      "are": {
+        "default": { "correct": true, "answered": true, "time_taken": 1333 }
+      },
+      "she": {
+        "default": { "correct": true, "answered": true, "time_taken": 1053 }
+      },
+      "was": {
+        "default": { "correct": true, "answered": true, "time_taken": 1844 }
+      },
+      "you": {
+        "default": { "correct": true, "answered": true, "time_taken": 1046 }
+      },
+      "live": {
+        "default": { "correct": true, "answered": true, "time_taken": 1299 }
+      },
+      "they": {
+        "default": { "correct": true, "answered": true, "time_taken": 1178 }
+      },
+      "what": {
+        "default": { "correct": true, "answered": true, "time_taken": 2929 }
+      }
+    },
+    "nonsense_words": {
+      "joo": {
+        "default": { "correct": true, "answered": true, "time_taken": 2998 }
+      },
+      "var": {
+        "default": { "correct": true, "answered": true, "time_taken": 3441 }
+      },
+      "woat": {
+        "default": { "correct": false, "answered": true, "time_taken": 5989 }
+      },
+      "zear": {
+        "default": { "correct": true, "answered": true, "time_taken": 2928 }
+      },
+      "churk": {
+        "default": { "correct": false, "answered": true, "time_taken": 7153 }
+      },
+      "shoin": {
+        "default": { "correct": true, "answered": true, "time_taken": 4377 }
+      }
+    },
+    "grapheme_recognition": {
+      "j": {
+        "default": { "correct": true, "answered": true, "time_taken": 1586 }
+      },
+      "v": {
+        "default": { "correct": true, "answered": true, "time_taken": 1321 }
+      },
+      "w": {
+        "default": { "correct": true, "answered": true, "time_taken": 1168 }
+      },
+      "x": {
+        "default": { "correct": true, "answered": true, "time_taken": 1156 }
+      },
+      "y": {
+        "default": { "correct": true, "answered": true, "time_taken": 1152 }
+      },
+      "z": {
+        "default": { "correct": true, "answered": true, "time_taken": 1211 }
+      },
+      "ai": {
+        "default": { "correct": true, "answered": true, "time_taken": 1528 }
+      },
+      "ar": {
+        "default": { "correct": true, "answered": true, "time_taken": 1408 }
+      },
+      "ch": {
+        "default": { "correct": true, "answered": true, "time_taken": 1084 }
+      },
+      "ee": {
+        "default": { "correct": true, "answered": true, "time_taken": 1282 }
+      },
+      "er": {
+        "default": { "correct": true, "answered": true, "time_taken": 2317 }
+      },
+      "ng": {
+        "default": { "correct": true, "answered": true, "time_taken": 1522 }
+      },
+      "oa": {
+        "default": { "correct": true, "answered": true, "time_taken": 1329 }
+      },
+      "oi": {
+        "default": { "correct": true, "answered": true, "time_taken": 1245 }
+      },
+      "oo": {
+        "default": { "correct": true, "answered": true, "time_taken": 2880 }
+      },
+      "or": {
+        "default": { "correct": true, "answered": true, "time_taken": 2072 }
+      },
+      "ow": {
+        "default": { "correct": true, "answered": true, "time_taken": 1253 }
+      },
+      "qu": {
+        "default": { "correct": true, "answered": true, "time_taken": 1423 }
+      },
+      "sh": {
+        "default": { "correct": true, "answered": true, "time_taken": 2451 }
+      },
+      "th": {
+        "default": { "correct": true, "answered": true, "time_taken": 1168 }
+      },
+      "ur": {
+        "default": { "correct": true, "answered": true, "time_taken": 1543 }
+      },
+      "air": {
+        "default": { "correct": true, "answered": true, "time_taken": 1359 }
+      },
+      "ear": {
+        "default": { "correct": true, "answered": true, "time_taken": 1286 }
+      },
+      "igh": {
+        "default": { "correct": true, "answered": true, "time_taken": 1343 }
+      }
+    },
+    "sounding_out_and_blending": {
+      "jam": {
+        "blending": { "correct": true, "answered": true, "time_taken": 847 },
+        "sounding_out": {
+          "correct": true,
+          "answered": true,
+          "time_taken": 4267
+        }
+      },
+      "chip": {
+        "blending": { "correct": true, "answered": true, "time_taken": 513 },
+        "sounding_out": {
+          "correct": true,
+          "answered": true,
+          "time_taken": 4351
+        }
+      },
+      "coin": {
+        "blending": { "correct": true, "answered": true, "time_taken": 554 },
+        "sounding_out": {
+          "correct": true,
+          "answered": true,
+          "time_taken": 3436
+        }
+      },
+      "feet": {
+        "blending": { "correct": true, "answered": true, "time_taken": 508 },
+        "sounding_out": {
+          "correct": true,
+          "answered": true,
+          "time_taken": 4937
+        }
+      },
+      "torn": {
+        "blending": { "correct": true, "answered": true, "time_taken": 746 },
+        "sounding_out": {
+          "correct": true,
+          "answered": true,
+          "time_taken": 15861
+        }
+      },
+      "shark": {
+        "blending": { "correct": true, "answered": true, "time_taken": 695 },
+        "sounding_out": {
+          "correct": true,
+          "answered": true,
+          "time_taken": 4586
+        }
+      }
+    }
+  },
+  "completed": "2022-11-22T09:19:23.279283+00:00"
+}
