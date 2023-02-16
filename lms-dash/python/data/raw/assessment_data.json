@@ -1,0 +1,80 @@
+{
+  "title": "Phase 3 Assessment",
+  "description": "At the end of each phase, you will find an assessment activity which contains everything you need in order to assess a child\u2019s phonological awareness upon completion of the phase.\nThese  assessments  do  not  have  a  standardised  pass  rate  but  are  designed  to  be  used as part of your day to day formative assessment to inform your next steps for every child. As a general indicator, a child should be able to recognise and pronounce the majority of graphemes and phonemes in the phases they have completed.\nThese assessments are also useful as a baseline assessment, to assess new children to your school or children that you may have concerns about.\n<strong>Graphemes &lt;th&gt; and &lt;oo&gt;</strong>\nIn Phase 3, children learnt that the grapheme &lt;th&gt; can be said with either an unvoiced /th/ (thief) or a voiced /th/ (that). Similarly, the grapheme &lt;oo&gt; can be either a short /oo/ (Ook) or a long /oo/ (Oon). When covering these graphemes in the assessment, you can accept either pronunciation as correct. ",
+  "sections": [
+    {
+      "section_type": "GRAPHEME_RECOGNITION",
+      "questions": [
+        "j",
+        "v",
+        "w",
+        "x",
+        "y",
+        "z",
+        "qu",
+        "ch",
+        "sh",
+        "th",
+        "ng",
+        "ai",
+        "ee",
+        "igh",
+        "oa",
+        "oo",
+        "ar",
+        "or",
+        "ur",
+        "ow",
+        "oi",
+        "ear",
+        "air",
+        "er"
+      ],
+      "instruction_to_learner": "Please tell me the phoneme for each of these graphemes.",
+      "notes": "Stop the activity if the child is really struggling or after 75 seconds.",
+      "section_time_limit": 75
+    },
+    {
+      "section_type": "SOUNDING_OUT_AND_BLENDING",
+      "questions": ["jam", "chip", "feet", "torn", "coin", "shark"],
+      "options_per_question": ["SOUNDING_OUT", "BLENDING"],
+      "instruction_to_learner": "1. Please try to give me each phoneme in these words.\n2. Then say the whole word.\nFor instance, the first one is /j/ /a/ /m/, jam.",
+      "notes": "Mark a yes/no for both the sounding out and for blending the phonemes to form the word. Help if necessary (but mark incorrect) and stop the activity after 60 seconds.",
+      "section_time_limit": 60
+    },
+    {
+      "section_type": "TRICKY_WORDS",
+      "questions": [
+        "we",
+        "me",
+        "be",
+        "he",
+        "she",
+        "was",
+        "my",
+        "live",
+        "you",
+        "they",
+        "are",
+        "all",
+        "what"
+      ],
+      "instruction_to_learner": "Have a go at reading our tricky words to me, please.",
+      "notes": "Help if they are stuck (but mark incorrect) and stop the activity after 60 seconds.",
+      "section_time_limit": 60
+    },
+    {
+      "section_type": "NONSENSE_WORDS",
+      "questions": ["joo", "var", "zear", "woat", "shoin", "churk"],
+      "instruction_to_learner": "Have a go at reading these nonsense words to me, please.",
+      "notes": "Help if they are stuck (but mark incorrect) and stop the activity after 60 seconds.",
+      "section_time_limit": 60
+    },
+    {
+      "section_type": "EYE_TRACKING",
+      "questions": ["They cut the long weeds.", "Her feet got hurt."],
+      "instruction_to_learner": "Read through these two bits of text.",
+      "notes": "If your learner finds the larger text size more comfortable to read, or makes more errors when reading the smaller text size, then start the ten day eye tracking exercise routine detailed in your All Aboard Phonics Plus manual."
+    }
+  ]
+}

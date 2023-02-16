@@ -1,0 +1,61 @@
+{
+  "book_session": {
+    "books.amap.xml": {
+      "read_count": 1,
+      "last_feedback_value": 5,
+      "last_started_timestamp": "2022-10-27T11:56:53.0308150+01:00"
+    },
+    "books.sidsat.xml": {
+      "read_count": 1,
+      "last_feedback_value": 5,
+      "last_started_timestamp": "2022-10-25T17:55:40.2942000+01:00"
+    },
+    "books.topdog.xml": {
+      "read_count": 1,
+      "last_feedback_value": 5,
+      "last_started_timestamp": "2022-10-28T14:50:00.0739560+01:00"
+    },
+    "books.theseed.xml": {
+      "read_count": 1,
+      "last_feedback_value": 5,
+      "last_started_timestamp": "2022-11-15T16:18:28.2433980+00:00"
+    },
+    "books.natcooks.xml": {
+      "read_count": 1,
+      "last_feedback_value": 5,
+      "last_started_timestamp": "2022-11-03T16:59:49.1013720+00:00"
+    },
+    "books.sitandtip.xml": {
+      "read_count": 1,
+      "last_feedback_value": 5,
+      "last_started_timestamp": "2022-10-27T12:01:02.5479710+01:00"
+    },
+    "books.pimandsamnap.xml": {
+      "read_count": 1,
+      "last_feedback_value": 5,
+      "last_started_timestamp": "2022-10-25T17:58:06.8013900+01:00"
+    },
+    "books.dadpacksasack.xml": {
+      "read_count": 1,
+      "last_feedback_value": 5,
+      "last_started_timestamp": "2022-10-28T14:52:10.9529200+01:00"
+    },
+    "books.asharkinthepool.xml": {
+      "read_count": 1,
+      "last_feedback_value": 5,
+      "last_started_timestamp": "2022-11-06T17:51:49.9655330+00:00"
+    },
+    "books.theoononthemoon.xml": {
+      "read_count": 1,
+      "last_feedback_value": 5,
+      "last_started_timestamp": "2022-10-30T18:06:21.6227910+00:00"
+    },
+    "books.timandthebigrats.xml": {
+      "read_count": 1,
+      "last_feedback_value": 5,
+      "last_started_timestamp": "2022-12-14T17:53:28.8476960+00:00"
+    }
+  },
+  "session_version": 1,
+  "last_session_timestamp": "2022-12-14T17:53:28.8476570+00:00"
+}

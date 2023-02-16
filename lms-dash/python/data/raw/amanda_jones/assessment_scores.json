@@ -1,0 +1,61 @@
+{
+  "total": {
+    "score": 54,
+    "score_decimal": 0.9473684210526315,
+    "max_possible_score": 57
+  },
+  "eye_tracking": {
+    "default": {
+      "fail": true,
+      "score": 1,
+      "fail_reason": "smaller_text_incorrect",
+      "score_decimal": 0.5,
+      "average_time_total": 18830.0,
+      "max_possible_score": 2,
+      "average_time_correct": 14195.0
+    }
+  },
+  "tricky_words": {
+    "default": {
+      "score": 13,
+      "score_decimal": 1.0,
+      "average_time_total": 1662.1538461538462,
+      "max_possible_score": 13,
+      "average_time_correct": 1662.1538461538462
+    }
+  },
+  "nonsense_words": {
+    "default": {
+      "score": 4,
+      "score_decimal": 0.6666666666666666,
+      "average_time_total": 4481.0,
+      "max_possible_score": 6,
+      "average_time_correct": 3436.0
+    }
+  },
+  "grapheme_recognition": {
+    "default": {
+      "score": 24,
+      "score_decimal": 1.0,
+      "average_time_total": 1503.625,
+      "max_possible_score": 24,
+      "average_time_correct": 1503.625
+    }
+  },
+  "sounding_out_and_blending": {
+    "blending": {
+      "score": 6,
+      "score_decimal": 1.0,
+      "average_time_total": 643.8333333333334,
+      "max_possible_score": 6,
+      "average_time_correct": 643.8333333333334
+    },
+    "sounding_out": {
+      "score": 6,
+      "score_decimal": 1.0,
+      "average_time_total": 6239.666666666667,
+      "max_possible_score": 6,
+      "average_time_correct": 6239.666666666667
+    }
+  }
+}

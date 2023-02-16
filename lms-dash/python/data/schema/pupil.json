@@ -1,0 +1,1812 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "assessment_scores": {
+      "type": "object",
+      "properties": {
+        "total": {
+          "type": "object",
+          "properties": {
+            "score": { "type": "integer" },
+            "score_decimal": { "type": "number" },
+            "max_possible_score": { "type": "integer" }
+          },
+          "required": ["max_possible_score", "score", "score_decimal"]
+        },
+        "eye_tracking": {
+          "type": "object",
+          "properties": {
+            "default": {
+              "type": "object",
+              "properties": {
+                "fail": { "type": "boolean" },
+                "score": { "type": "integer" },
+                "fail_reason": { "type": "string" },
+                "score_decimal": { "type": "number" },
+                "average_time_total": { "type": "number" },
+                "max_possible_score": { "type": "integer" },
+                "average_time_correct": { "type": "number" }
+              },
+              "required": [
+                "average_time_correct",
+                "average_time_total",
+                "fail",
+                "fail_reason",
+                "max_possible_score",
+                "score",
+                "score_decimal"
+              ]
+            }
+          },
+          "required": ["default"]
+        },
+        "tricky_words": {
+          "type": "object",
+          "properties": {
+            "default": {
+              "type": "object",
+              "properties": {
+                "score": { "type": "integer" },
+                "score_decimal": { "type": "number" },
+                "average_time_total": { "type": "number" },
+                "max_possible_score": { "type": "integer" },
+                "average_time_correct": { "type": "number" }
+              },
+              "required": [
+                "average_time_correct",
+                "average_time_total",
+                "max_possible_score",
+                "score",
+                "score_decimal"
+              ]
+            }
+          },
+          "required": ["default"]
+        },
+        "nonsense_words": {
+          "type": "object",
+          "properties": {
+            "default": {
+              "type": "object",
+              "properties": {
+                "score": { "type": "integer" },
+                "score_decimal": { "type": "number" },
+                "average_time_total": { "type": "number" },
+                "max_possible_score": { "type": "integer" },
+                "average_time_correct": { "type": "number" }
+              },
+              "required": [
+                "average_time_correct",
+                "average_time_total",
+                "max_possible_score",
+                "score",
+                "score_decimal"
+              ]
+            }
+          },
+          "required": ["default"]
+        },
+        "grapheme_recognition": {
+          "type": "object",
+          "properties": {
+            "default": {
+              "type": "object",
+              "properties": {
+                "score": { "type": "integer" },
+                "score_decimal": { "type": "number" },
+                "average_time_total": { "type": "number" },
+                "max_possible_score": { "type": "integer" },
+                "average_time_correct": { "type": "number" }
+              },
+              "required": [
+                "average_time_correct",
+                "average_time_total",
+                "max_possible_score",
+                "score",
+                "score_decimal"
+              ]
+            }
+          },
+          "required": ["default"]
+        },
+        "sounding_out_and_blending": {
+          "type": "object",
+          "properties": {
+            "blending": {
+              "type": "object",
+              "properties": {
+                "score": { "type": "integer" },
+                "score_decimal": { "type": "number" },
+                "average_time_total": { "type": "number" },
+                "max_possible_score": { "type": "integer" },
+                "average_time_correct": { "type": "number" }
+              },
+              "required": [
+                "average_time_correct",
+                "average_time_total",
+                "max_possible_score",
+                "score",
+                "score_decimal"
+              ]
+            },
+            "sounding_out": {
+              "type": "object",
+              "properties": {
+                "score": { "type": "integer" },
+                "score_decimal": { "type": "number" },
+                "average_time_total": { "type": "number" },
+                "max_possible_score": { "type": "integer" },
+                "average_time_correct": { "type": "number" }
+              },
+              "required": [
+                "average_time_correct",
+                "average_time_total",
+                "max_possible_score",
+                "score",
+                "score_decimal"
+              ]
+            }
+          },
+          "required": ["blending", "sounding_out"]
+        }
+      },
+      "required": [
+        "eye_tracking",
+        "grapheme_recognition",
+        "nonsense_words",
+        "sounding_out_and_blending",
+        "total",
+        "tricky_words"
+      ]
+    },
+    "learning_data": {
+      "type": "object",
+      "properties": {
+        "session_version": { "type": "integer" },
+        "curriculum_track": { "type": "string" },
+        "curriculum_version": { "type": "integer" },
+        "lesson_history_log": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "score": { "type": "integer" },
+              "timestamp": { "type": "string" },
+              "minigame_id": { "type": "string" },
+              "lesson_stamp": { "type": "string" },
+              "feedback_index": { "type": "integer" },
+              "complexity_index": { "type": "integer" },
+              "is_positive_review": { "type": "boolean" }
+            },
+            "required": [
+              "complexity_index",
+              "feedback_index",
+              "is_positive_review",
+              "lesson_stamp",
+              "minigame_id",
+              "score",
+              "timestamp"
+            ]
+          }
+        },
+        "level_session_directory": {
+          "type": "object",
+          "properties": {
+            "0": {
+              "type": "object",
+              "properties": {
+                "best_score": { "type": "integer" },
+                "best_dtt_rating": { "type": "integer" },
+                "best_fast_correct_reading_rating": { "type": "integer" }
+              },
+              "required": [
+                "best_dtt_rating",
+                "best_fast_correct_reading_rating",
+                "best_score"
+              ]
+            }
+          },
+          "required": ["0"]
+        },
+        "minigame_session_directory": {
+          "type": "object",
+          "properties": {
+            "Eggi": {
+              "type": "object",
+              "properties": {
+                "complexity_sessions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "best_score": { "type": "integer" },
+                      "gaming_adaptiveness": { "type": "integer" },
+                      "gaming_adaptiveness_up_step": { "type": "integer" }
+                    },
+                    "required": [
+                      "best_score",
+                      "gaming_adaptiveness",
+                      "gaming_adaptiveness_up_step"
+                    ]
+                  }
+                },
+                "introduced_in_level": { "type": "integer" },
+                "literacy_adaptiveness": { "type": "null" }
+              },
+              "required": [
+                "complexity_sessions",
+                "introduced_in_level",
+                "literacy_adaptiveness"
+              ]
+            },
+            "Fishing": {
+              "type": "object",
+              "properties": {
+                "complexity_sessions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "best_score": { "type": "integer" },
+                      "gaming_adaptiveness": { "type": "number" },
+                      "gaming_adaptiveness_up_step": { "type": "number" }
+                    },
+                    "required": [
+                      "best_score",
+                      "gaming_adaptiveness",
+                      "gaming_adaptiveness_up_step"
+                    ]
+                  }
+                },
+                "introduced_in_level": { "type": "integer" },
+                "literacy_adaptiveness": { "type": "null" }
+              },
+              "required": [
+                "complexity_sessions",
+                "introduced_in_level",
+                "literacy_adaptiveness"
+              ]
+            },
+            "RoomTidy": {
+              "type": "object",
+              "properties": {
+                "complexity_sessions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "best_score": { "type": "integer" },
+                      "gaming_adaptiveness": { "type": "integer" },
+                      "gaming_adaptiveness_up_step": { "type": "number" }
+                    },
+                    "required": [
+                      "best_score",
+                      "gaming_adaptiveness",
+                      "gaming_adaptiveness_up_step"
+                    ]
+                  }
+                },
+                "introduced_in_level": { "type": "integer" },
+                "literacy_adaptiveness": { "type": "null" }
+              },
+              "required": [
+                "complexity_sessions",
+                "introduced_in_level",
+                "literacy_adaptiveness"
+              ]
+            },
+            "WordSnap": {
+              "type": "object",
+              "properties": {
+                "complexity_sessions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "best_score": { "type": "integer" },
+                      "gaming_adaptiveness": { "type": "integer" },
+                      "gaming_adaptiveness_up_step": { "type": "integer" }
+                    },
+                    "required": [
+                      "best_score",
+                      "gaming_adaptiveness",
+                      "gaming_adaptiveness_up_step"
+                    ]
+                  }
+                },
+                "introduced_in_level": { "type": "integer" },
+                "literacy_adaptiveness": { "type": "null" }
+              },
+              "required": [
+                "complexity_sessions",
+                "introduced_in_level",
+                "literacy_adaptiveness"
+              ]
+            },
+            "RabbitRun": {
+              "type": "object",
+              "properties": {
+                "complexity_sessions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "best_score": { "type": "integer" },
+                      "gaming_adaptiveness": { "type": "number" },
+                      "gaming_adaptiveness_up_step": { "type": "number" }
+                    },
+                    "required": [
+                      "best_score",
+                      "gaming_adaptiveness",
+                      "gaming_adaptiveness_up_step"
+                    ]
+                  }
+                },
+                "introduced_in_level": { "type": "integer" },
+                "literacy_adaptiveness": { "type": "null" }
+              },
+              "required": [
+                "complexity_sessions",
+                "introduced_in_level",
+                "literacy_adaptiveness"
+              ]
+            },
+            "FunPinball": {
+              "type": "object",
+              "properties": {
+                "complexity_sessions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "best_score": { "type": "integer" },
+                      "gaming_adaptiveness": { "type": "integer" },
+                      "gaming_adaptiveness_up_step": { "type": "number" }
+                    },
+                    "required": [
+                      "best_score",
+                      "gaming_adaptiveness",
+                      "gaming_adaptiveness_up_step"
+                    ]
+                  }
+                },
+                "introduced_in_level": { "type": "integer" },
+                "literacy_adaptiveness": { "type": "null" }
+              },
+              "required": [
+                "complexity_sessions",
+                "introduced_in_level",
+                "literacy_adaptiveness"
+              ]
+            },
+            "WordPicker": {
+              "type": "object",
+              "properties": {
+                "complexity_sessions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "best_score": { "type": "integer" },
+                      "gaming_adaptiveness": { "type": "integer" },
+                      "gaming_adaptiveness_up_step": { "type": "integer" }
+                    },
+                    "required": [
+                      "best_score",
+                      "gaming_adaptiveness",
+                      "gaming_adaptiveness_up_step"
+                    ]
+                  }
+                },
+                "introduced_in_level": { "type": "integer" },
+                "literacy_adaptiveness": { "type": "null" }
+              },
+              "required": [
+                "complexity_sessions",
+                "introduced_in_level",
+                "literacy_adaptiveness"
+              ]
+            },
+            "FingerDance": {
+              "type": "object",
+              "properties": {
+                "complexity_sessions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "best_score": { "type": "integer" },
+                      "gaming_adaptiveness": { "type": "number" },
+                      "gaming_adaptiveness_up_step": { "type": "number" }
+                    },
+                    "required": [
+                      "best_score",
+                      "gaming_adaptiveness",
+                      "gaming_adaptiveness_up_step"
+                    ]
+                  }
+                },
+                "introduced_in_level": { "type": "integer" },
+                "literacy_adaptiveness": { "type": "null" }
+              },
+              "required": [
+                "complexity_sessions",
+                "introduced_in_level",
+                "literacy_adaptiveness"
+              ]
+            },
+            "MoleWhacker": {
+              "type": "object",
+              "properties": {
+                "complexity_sessions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "best_score": { "type": "integer" },
+                      "gaming_adaptiveness": { "type": "number" },
+                      "gaming_adaptiveness_up_step": { "type": "number" }
+                    },
+                    "required": [
+                      "best_score",
+                      "gaming_adaptiveness",
+                      "gaming_adaptiveness_up_step"
+                    ]
+                  }
+                },
+                "introduced_in_level": { "type": "integer" },
+                "literacy_adaptiveness": { "type": "null" }
+              },
+              "required": [
+                "complexity_sessions",
+                "introduced_in_level",
+                "literacy_adaptiveness"
+              ]
+            },
+            "SoundPicker": {
+              "type": "object",
+              "properties": {
+                "complexity_sessions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "best_score": { "type": "integer" },
+                      "gaming_adaptiveness": { "type": "integer" },
+                      "gaming_adaptiveness_up_step": { "type": "integer" }
+                    },
+                    "required": [
+                      "best_score",
+                      "gaming_adaptiveness",
+                      "gaming_adaptiveness_up_step"
+                    ]
+                  }
+                },
+                "introduced_in_level": { "type": "integer" },
+                "literacy_adaptiveness": { "type": "null" }
+              },
+              "required": [
+                "complexity_sessions",
+                "introduced_in_level",
+                "literacy_adaptiveness"
+              ]
+            },
+            "SoundSearch": {
+              "type": "object",
+              "properties": {
+                "complexity_sessions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "best_score": { "type": "integer" },
+                      "gaming_adaptiveness": { "type": "number" },
+                      "gaming_adaptiveness_up_step": { "type": "number" }
+                    },
+                    "required": [
+                      "best_score",
+                      "gaming_adaptiveness",
+                      "gaming_adaptiveness_up_step"
+                    ]
+                  }
+                },
+                "introduced_in_level": { "type": "integer" },
+                "literacy_adaptiveness": { "type": "null" }
+              },
+              "required": [
+                "complexity_sessions",
+                "introduced_in_level",
+                "literacy_adaptiveness"
+              ]
+            },
+            "WordBuilder": {
+              "type": "object",
+              "properties": {
+                "complexity_sessions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "best_score": { "type": "integer" },
+                      "gaming_adaptiveness": { "type": "number" },
+                      "gaming_adaptiveness_up_step": { "type": "number" }
+                    },
+                    "required": [
+                      "best_score",
+                      "gaming_adaptiveness",
+                      "gaming_adaptiveness_up_step"
+                    ]
+                  }
+                },
+                "introduced_in_level": { "type": "integer" },
+                "literacy_adaptiveness": { "type": "null" }
+              },
+              "required": [
+                "complexity_sessions",
+                "introduced_in_level",
+                "literacy_adaptiveness"
+              ]
+            },
+            "LetterFishing": {
+              "type": "object",
+              "properties": {
+                "complexity_sessions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "best_score": { "type": "integer" },
+                      "gaming_adaptiveness": { "type": "number" },
+                      "gaming_adaptiveness_up_step": { "type": "number" }
+                    },
+                    "required": [
+                      "best_score",
+                      "gaming_adaptiveness",
+                      "gaming_adaptiveness_up_step"
+                    ]
+                  }
+                },
+                "introduced_in_level": { "type": "integer" },
+                "literacy_adaptiveness": { "type": "null" }
+              },
+              "required": [
+                "complexity_sessions",
+                "introduced_in_level",
+                "literacy_adaptiveness"
+              ]
+            },
+            "PicturePicker": {
+              "type": "object",
+              "properties": {
+                "complexity_sessions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "best_score": { "type": "integer" },
+                      "gaming_adaptiveness": { "type": "integer" },
+                      "gaming_adaptiveness_up_step": { "type": "integer" }
+                    },
+                    "required": [
+                      "best_score",
+                      "gaming_adaptiveness",
+                      "gaming_adaptiveness_up_step"
+                    ]
+                  }
+                },
+                "introduced_in_level": { "type": "integer" },
+                "literacy_adaptiveness": { "type": "null" }
+              },
+              "required": [
+                "complexity_sessions",
+                "introduced_in_level",
+                "literacy_adaptiveness"
+              ]
+            },
+            "WordPaintball": {
+              "type": "object",
+              "properties": {
+                "complexity_sessions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "best_score": { "type": "integer" },
+                      "gaming_adaptiveness": { "type": "number" },
+                      "gaming_adaptiveness_up_step": { "type": "number" }
+                    },
+                    "required": [
+                      "best_score",
+                      "gaming_adaptiveness",
+                      "gaming_adaptiveness_up_step"
+                    ]
+                  }
+                },
+                "introduced_in_level": { "type": "integer" },
+                "literacy_adaptiveness": { "type": "null" }
+              },
+              "required": [
+                "complexity_sessions",
+                "introduced_in_level",
+                "literacy_adaptiveness"
+              ]
+            },
+            "FighterMission": {
+              "type": "object",
+              "properties": {
+                "complexity_sessions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "best_score": { "type": "integer" },
+                      "gaming_adaptiveness": { "type": "integer" },
+                      "gaming_adaptiveness_up_step": { "type": "number" }
+                    },
+                    "required": [
+                      "best_score",
+                      "gaming_adaptiveness",
+                      "gaming_adaptiveness_up_step"
+                    ]
+                  }
+                },
+                "introduced_in_level": { "type": "integer" },
+                "literacy_adaptiveness": { "type": "null" }
+              },
+              "required": [
+                "complexity_sessions",
+                "introduced_in_level",
+                "literacy_adaptiveness"
+              ]
+            },
+            "CharacterSearch": {
+              "type": "object",
+              "properties": {
+                "complexity_sessions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "best_score": { "type": "integer" },
+                      "gaming_adaptiveness": { "type": "number" },
+                      "gaming_adaptiveness_up_step": { "type": "number" }
+                    },
+                    "required": [
+                      "best_score",
+                      "gaming_adaptiveness",
+                      "gaming_adaptiveness_up_step"
+                    ]
+                  }
+                },
+                "introduced_in_level": { "type": "integer" },
+                "literacy_adaptiveness": { "type": "null" }
+              },
+              "required": [
+                "complexity_sessions",
+                "introduced_in_level",
+                "literacy_adaptiveness"
+              ]
+            },
+            "LetterPaintball": {
+              "type": "object",
+              "properties": {
+                "complexity_sessions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "best_score": { "type": "integer" },
+                      "gaming_adaptiveness": { "type": "number" },
+                      "gaming_adaptiveness_up_step": { "type": "number" }
+                    },
+                    "required": [
+                      "best_score",
+                      "gaming_adaptiveness",
+                      "gaming_adaptiveness_up_step"
+                    ]
+                  }
+                },
+                "introduced_in_level": { "type": "integer" },
+                "literacy_adaptiveness": { "type": "null" }
+              },
+              "required": [
+                "complexity_sessions",
+                "introduced_in_level",
+                "literacy_adaptiveness"
+              ]
+            },
+            "FunFighterMission": {
+              "type": "object",
+              "properties": {
+                "complexity_sessions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "best_score": { "type": "integer" },
+                      "gaming_adaptiveness": { "type": "number" },
+                      "gaming_adaptiveness_up_step": { "type": "number" }
+                    },
+                    "required": [
+                      "best_score",
+                      "gaming_adaptiveness",
+                      "gaming_adaptiveness_up_step"
+                    ]
+                  }
+                },
+                "introduced_in_level": { "type": "integer" },
+                "literacy_adaptiveness": { "type": "null" }
+              },
+              "required": [
+                "complexity_sessions",
+                "introduced_in_level",
+                "literacy_adaptiveness"
+              ]
+            },
+            "LetterFingerDance": {
+              "type": "object",
+              "properties": {
+                "complexity_sessions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "best_score": { "type": "integer" },
+                      "gaming_adaptiveness": { "type": "number" },
+                      "gaming_adaptiveness_up_step": { "type": "number" }
+                    },
+                    "required": [
+                      "best_score",
+                      "gaming_adaptiveness",
+                      "gaming_adaptiveness_up_step"
+                    ]
+                  }
+                },
+                "introduced_in_level": { "type": "integer" },
+                "literacy_adaptiveness": { "type": "null" }
+              },
+              "required": [
+                "complexity_sessions",
+                "introduced_in_level",
+                "literacy_adaptiveness"
+              ]
+            },
+            "CharacterPaintball": {
+              "type": "object",
+              "properties": {
+                "complexity_sessions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "best_score": { "type": "integer" },
+                      "gaming_adaptiveness": { "type": "integer" },
+                      "gaming_adaptiveness_up_step": { "type": "number" }
+                    },
+                    "required": [
+                      "best_score",
+                      "gaming_adaptiveness",
+                      "gaming_adaptiveness_up_step"
+                    ]
+                  }
+                },
+                "introduced_in_level": { "type": "integer" },
+                "literacy_adaptiveness": { "type": "null" }
+              },
+              "required": [
+                "complexity_sessions",
+                "introduced_in_level",
+                "literacy_adaptiveness"
+              ]
+            },
+            "CharacterFingerDance": {
+              "type": "object",
+              "properties": {
+                "complexity_sessions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "best_score": { "type": "integer" },
+                      "gaming_adaptiveness": { "type": "number" },
+                      "gaming_adaptiveness_up_step": { "type": "number" }
+                    },
+                    "required": [
+                      "best_score",
+                      "gaming_adaptiveness",
+                      "gaming_adaptiveness_up_step"
+                    ]
+                  }
+                },
+                "introduced_in_level": { "type": "integer" },
+                "literacy_adaptiveness": { "type": "null" }
+              },
+              "required": [
+                "complexity_sessions",
+                "introduced_in_level",
+                "literacy_adaptiveness"
+              ]
+            }
+          },
+          "required": [
+            "CharacterFingerDance",
+            "CharacterPaintball",
+            "CharacterSearch",
+            "Eggi",
+            "FighterMission",
+            "FingerDance",
+            "Fishing",
+            "FunFighterMission",
+            "FunPinball",
+            "LetterFingerDance",
+            "LetterFishing",
+            "LetterPaintball",
+            "MoleWhacker",
+            "PicturePicker",
+            "RabbitRun",
+            "RoomTidy",
+            "SoundPicker",
+            "SoundSearch",
+            "WordBuilder",
+            "WordPaintball",
+            "WordPicker",
+            "WordSnap"
+          ]
+        },
+        "current_lesson_start_timestamp": { "type": "string" },
+        "last_completed_lesson_activity": { "type": "string" },
+        "randomized_lesson_matrix_directory": { "type": "object" },
+        "last_completed_lesson_activity_timestamp": { "type": "string" }
+      },
+      "required": [
+        "current_lesson_start_timestamp",
+        "curriculum_track",
+        "curriculum_version",
+        "last_completed_lesson_activity",
+        "last_completed_lesson_activity_timestamp",
+        "lesson_history_log",
+        "level_session_directory",
+        "minigame_session_directory",
+        "randomized_lesson_matrix_directory",
+        "session_version"
+      ]
+    },
+    "assessment_submission_data": {
+      "type": "object",
+      "properties": {
+        "sections": {
+          "type": "object",
+          "properties": {
+            "eye_tracking": {
+              "type": "object",
+              "properties": {
+                "Her feet got hurt.": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "They cut the long weeds.": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                }
+              },
+              "required": ["Her feet got hurt.", "They cut the long weeds."]
+            },
+            "tricky_words": {
+              "type": "object",
+              "properties": {
+                "be": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "he": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "me": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "my": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "we": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "all": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "are": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "she": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "was": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "you": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "live": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "they": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "what": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                }
+              },
+              "required": [
+                "all",
+                "are",
+                "be",
+                "he",
+                "live",
+                "me",
+                "my",
+                "she",
+                "they",
+                "was",
+                "we",
+                "what",
+                "you"
+              ]
+            },
+            "nonsense_words": {
+              "type": "object",
+              "properties": {
+                "joo": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "var": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "woat": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "zear": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "churk": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "shoin": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                }
+              },
+              "required": ["churk", "joo", "shoin", "var", "woat", "zear"]
+            },
+            "grapheme_recognition": {
+              "type": "object",
+              "properties": {
+                "j": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "v": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "w": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "x": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "y": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "z": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "ai": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "ar": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "ch": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "ee": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "er": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "ng": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "oa": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "oi": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "oo": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "or": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "ow": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "qu": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "sh": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "th": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "ur": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "air": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "ear": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                },
+                "igh": {
+                  "type": "object",
+                  "properties": {
+                    "default": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["default"]
+                }
+              },
+              "required": [
+                "ai",
+                "air",
+                "ar",
+                "ch",
+                "ear",
+                "ee",
+                "er",
+                "igh",
+                "j",
+                "ng",
+                "oa",
+                "oi",
+                "oo",
+                "or",
+                "ow",
+                "qu",
+                "sh",
+                "th",
+                "ur",
+                "v",
+                "w",
+                "x",
+                "y",
+                "z"
+              ]
+            },
+            "sounding_out_and_blending": {
+              "type": "object",
+              "properties": {
+                "jam": {
+                  "type": "object",
+                  "properties": {
+                    "blending": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    },
+                    "sounding_out": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["blending", "sounding_out"]
+                },
+                "chip": {
+                  "type": "object",
+                  "properties": {
+                    "blending": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    },
+                    "sounding_out": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["blending", "sounding_out"]
+                },
+                "coin": {
+                  "type": "object",
+                  "properties": {
+                    "blending": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    },
+                    "sounding_out": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["blending", "sounding_out"]
+                },
+                "feet": {
+                  "type": "object",
+                  "properties": {
+                    "blending": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    },
+                    "sounding_out": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["blending", "sounding_out"]
+                },
+                "torn": {
+                  "type": "object",
+                  "properties": {
+                    "blending": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    },
+                    "sounding_out": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["blending", "sounding_out"]
+                },
+                "shark": {
+                  "type": "object",
+                  "properties": {
+                    "blending": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    },
+                    "sounding_out": {
+                      "type": "object",
+                      "properties": {
+                        "correct": { "type": "boolean" },
+                        "answered": { "type": "boolean" },
+                        "time_taken": { "type": "integer" }
+                      },
+                      "required": ["answered", "correct", "time_taken"]
+                    }
+                  },
+                  "required": ["blending", "sounding_out"]
+                }
+              },
+              "required": ["chip", "coin", "feet", "jam", "shark", "torn"]
+            }
+          },
+          "required": [
+            "eye_tracking",
+            "grapheme_recognition",
+            "nonsense_words",
+            "sounding_out_and_blending",
+            "tricky_words"
+          ]
+        },
+        "completed": { "type": "string" }
+      },
+      "required": ["completed", "sections"]
+    },
+    "library_data": {
+      "type": "object",
+      "properties": {
+        "book_session": { "type": "object" },
+        "session_version": { "type": "integer" },
+        "current_book_progress": {
+          "type": "object",
+          "properties": {
+            "book_id": { "type": "string" },
+            "presentation": { "type": "string" },
+            "paragraph_index": { "type": "integer" }
+          },
+          "required": ["book_id", "paragraph_index", "presentation"]
+        },
+        "last_session_timestamp": { "type": "string" }
+      },
+      "required": [
+        "book_session",
+        "current_book_progress",
+        "last_session_timestamp",
+        "session_version"
+      ]
+    }
+  },
+  "required": [
+    "assessment_scores",
+    "assessment_submission_data",
+    "learning_data",
+    "library_data"
+  ]
+}

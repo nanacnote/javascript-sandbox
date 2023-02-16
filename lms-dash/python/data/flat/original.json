@@ -1,0 +1,5667 @@
+{
+  "pupils": {
+    "sarah_jane": {
+      "assessment_scores": {
+        "total": {
+          "score": 43,
+          "score_decimal": 0.7543859649122807,
+          "max_possible_score": 57
+        },
+        "eye_tracking": {
+          "default": {
+            "fail": false,
+            "score": 0,
+            "fail_reason": "insufficient_data",
+            "score_decimal": 0.0,
+            "average_time_total": 40348.0,
+            "max_possible_score": 2,
+            "average_time_correct": 0.0
+          }
+        },
+        "tricky_words": {
+          "default": {
+            "score": 9,
+            "score_decimal": 0.6923076923076923,
+            "average_time_total": 3295.6153846153848,
+            "max_possible_score": 13,
+            "average_time_correct": 2275.0
+          }
+        },
+        "nonsense_words": {
+          "default": {
+            "score": 0,
+            "score_decimal": 0.0,
+            "average_time_total": 9977.333333333334,
+            "max_possible_score": 6,
+            "average_time_correct": 0.0
+          }
+        },
+        "grapheme_recognition": {
+          "default": {
+            "score": 24,
+            "score_decimal": 1.0,
+            "average_time_total": 2060.0416666666665,
+            "max_possible_score": 24,
+            "average_time_correct": 2060.0416666666665
+          }
+        },
+        "sounding_out_and_blending": {
+          "blending": {
+            "score": 5,
+            "score_decimal": 0.8333333333333334,
+            "average_time_total": 1471.8333333333333,
+            "max_possible_score": 6,
+            "average_time_correct": 828.6
+          },
+          "sounding_out": {
+            "score": 5,
+            "score_decimal": 0.8333333333333334,
+            "average_time_total": 7728.5,
+            "max_possible_score": 6,
+            "average_time_correct": 6653.0
+          }
+        }
+      },
+      "learning_data": {
+        "session_version": 1,
+        "curriculum_track": "school",
+        "curriculum_version": 1,
+        "lesson_history_log": [
+          {
+            "score": 0,
+            "timestamp": "2022-10-19T15:37:57.6238830+01:00",
+            "minigame_id": "RabbitRun",
+            "lesson_stamp": "0-0-1",
+            "feedback_index": 2,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-19T15:42:30.1946800+01:00",
+            "minigame_id": "CharacterPaintball",
+            "lesson_stamp": "0-0-7",
+            "feedback_index": 2,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-19T15:46:12.6302810+01:00",
+            "minigame_id": "FunFighterMission",
+            "lesson_stamp": "0-0-11",
+            "feedback_index": 2,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-22T08:51:02.8713980+01:00",
+            "minigame_id": "CharacterSearch",
+            "lesson_stamp": "0-1-8",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 76,
+            "timestamp": "2022-10-22T08:53:38.8781060+01:00",
+            "minigame_id": "Eggi",
+            "lesson_stamp": "0-1-10",
+            "feedback_index": 2,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-25T14:56:04.6158450+01:00",
+            "minigame_id": "CharacterPaintball",
+            "lesson_stamp": "0-2-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-25T14:58:41.0898010+01:00",
+            "minigame_id": "SoundSearch",
+            "lesson_stamp": "0-2-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-25T15:02:03.5783760+01:00",
+            "minigame_id": "MoleWhacker",
+            "lesson_stamp": "0-2-6",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": false
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-28T08:58:16.7373040+01:00",
+            "minigame_id": "CharacterSearch",
+            "lesson_stamp": "0-3-1",
+            "feedback_index": 2,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-28T09:00:45.1330270+01:00",
+            "minigame_id": "RoomTidy",
+            "lesson_stamp": "0-3-2",
+            "feedback_index": 2,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-28T09:02:49.5921810+01:00",
+            "minigame_id": "SoundPicker",
+            "lesson_stamp": "0-3-3",
+            "feedback_index": 2,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-28T09:05:01.2184820+01:00",
+            "minigame_id": "FunFighterMission",
+            "lesson_stamp": "0-3-5",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-30T18:07:14.0852550+00:00",
+            "minigame_id": "CharacterPaintball",
+            "lesson_stamp": "0-4-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-30T18:09:39.5062360+00:00",
+            "minigame_id": "WordBuilder",
+            "lesson_stamp": "0-4-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-30T18:11:19.2710590+00:00",
+            "minigame_id": "SoundPicker",
+            "lesson_stamp": "0-4-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-30T18:15:26.3592010+00:00",
+            "minigame_id": "LetterPaintball",
+            "lesson_stamp": "0-4-9",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-30T18:17:56.6178270+00:00",
+            "minigame_id": "RabbitRun",
+            "lesson_stamp": "0-4-11",
+            "feedback_index": 2,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-02T08:28:51.1106030+00:00",
+            "minigame_id": "SoundSearch",
+            "lesson_stamp": "0-5-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-02T08:30:34.2723080+00:00",
+            "minigame_id": "RoomTidy",
+            "lesson_stamp": "0-5-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-02T08:32:10.8506370+00:00",
+            "minigame_id": "WordBuilder",
+            "lesson_stamp": "0-5-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 32,
+            "timestamp": "2022-11-03T07:41:02.2591740+00:00",
+            "minigame_id": "Eggi",
+            "lesson_stamp": "0-5-10",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": false
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-03T07:43:07.6018070+00:00",
+            "minigame_id": "CharacterSearch",
+            "lesson_stamp": "0-6-6",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": false
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-03T07:45:06.9956740+00:00",
+            "minigame_id": "CharacterPaintball",
+            "lesson_stamp": "0-6-8",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-03T07:48:08.9860260+00:00",
+            "minigame_id": "FingerDance",
+            "lesson_stamp": "0-6-10",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-04T07:10:39.3127190+00:00",
+            "minigame_id": "CharacterFingerDance",
+            "lesson_stamp": "0-7-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-04T07:12:34.1351240+00:00",
+            "minigame_id": "CharacterSearch",
+            "lesson_stamp": "0-7-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-04T07:16:33.3414300+00:00",
+            "minigame_id": "MoleWhacker",
+            "lesson_stamp": "0-7-5",
+            "feedback_index": 2,
+            "complexity_index": 0,
+            "is_positive_review": false
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-08T07:27:02.5124650+00:00",
+            "minigame_id": "SoundSearch",
+            "lesson_stamp": "0-8-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-08T07:28:51.5412650+00:00",
+            "minigame_id": "SoundPicker",
+            "lesson_stamp": "0-8-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-08T07:31:05.6970370+00:00",
+            "minigame_id": "WordPicker",
+            "lesson_stamp": "0-8-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-08T07:34:57.3532860+00:00",
+            "minigame_id": "Fishing",
+            "lesson_stamp": "0-8-5",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-09T08:27:47.1582340+00:00",
+            "minigame_id": "PicturePicker",
+            "lesson_stamp": "0-9-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-09T08:31:31.8504840+00:00",
+            "minigame_id": "LetterFishing",
+            "lesson_stamp": "0-9-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-09T08:34:35.0098080+00:00",
+            "minigame_id": "WordPaintball",
+            "lesson_stamp": "0-9-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-10T08:32:11.9564830+00:00",
+            "minigame_id": "LetterFingerDance",
+            "lesson_stamp": "0-9-9",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-10T08:35:05.5974830+00:00",
+            "minigame_id": "FunPinball",
+            "lesson_stamp": "0-9-11",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-14T15:36:33.4567610+00:00",
+            "minigame_id": "WordSnap",
+            "lesson_stamp": "0-10-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-14T15:38:43.7507310+00:00",
+            "minigame_id": "WordPicker",
+            "lesson_stamp": "0-10-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-14T15:40:58.0105600+00:00",
+            "minigame_id": "FighterMission",
+            "lesson_stamp": "0-10-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-15T16:25:41.5879980+00:00",
+            "minigame_id": "RabbitRun",
+            "lesson_stamp": "0-10-9",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-24T08:24:57.6459200+00:00",
+            "minigame_id": "CharacterFingerDance",
+            "lesson_stamp": "0-11-7",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-24T08:27:00.9245680+00:00",
+            "minigame_id": "FunFighterMission",
+            "lesson_stamp": "0-11-9",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          }
+        ],
+        "level_session_directory": {
+          "0": {
+            "best_score": 76,
+            "best_dtt_rating": 0,
+            "best_fast_correct_reading_rating": 1
+          }
+        },
+        "minigame_session_directory": {
+          "Eggi": {
+            "complexity_sessions": [
+              {
+                "best_score": 76,
+                "gaming_adaptiveness": 0,
+                "gaming_adaptiveness_up_step": 0
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "Fishing": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.400000005960464,
+                "gaming_adaptiveness_up_step": 0.0799999982118607
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "RoomTidy": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0,
+                "gaming_adaptiveness_up_step": 0.0400000028312206
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "WordSnap": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0,
+                "gaming_adaptiveness_up_step": 0
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "RabbitRun": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.081600084900856,
+                "gaming_adaptiveness_up_step": 0.0128000006079674
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "FunPinball": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0,
+                "gaming_adaptiveness_up_step": 0.0199999995529652
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "WordPicker": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0,
+                "gaming_adaptiveness_up_step": 0
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "FingerDance": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.100000001490116,
+                "gaming_adaptiveness_up_step": 0.100000001490116
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "MoleWhacker": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.300000011920929,
+                "gaming_adaptiveness_up_step": 0.0400000028312206
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "SoundPicker": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0,
+                "gaming_adaptiveness_up_step": 0
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "SoundSearch": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.358500123023987,
+                "gaming_adaptiveness_up_step": 0.0500000007450581
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "WordBuilder": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.71399998664856,
+                "gaming_adaptiveness_up_step": 0.0700000002980232
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "LetterFishing": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.5,
+                "gaming_adaptiveness_up_step": 0.0799999982118607
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "PicturePicker": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0,
+                "gaming_adaptiveness_up_step": 0
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "WordPaintball": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.350000143051147,
+                "gaming_adaptiveness_up_step": 0.0500000007450581
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "FighterMission": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 1,
+                "gaming_adaptiveness_up_step": 0.100000001490116
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "CharacterSearch": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.300000071525574,
+                "gaming_adaptiveness_up_step": 0.0500000007450581
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "LetterPaintball": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.350000023841858,
+                "gaming_adaptiveness_up_step": 0.0500000007450581
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "FunFighterMission": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.85999995470047,
+                "gaming_adaptiveness_up_step": 0.0800000056624413
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "LetterFingerDance": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.800000071525574,
+                "gaming_adaptiveness_up_step": 0.100000001490116
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "CharacterPaintball": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 1,
+                "gaming_adaptiveness_up_step": 0.0400000028312206
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "CharacterFingerDance": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.480000078678131,
+                "gaming_adaptiveness_up_step": 0.100000001490116
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          }
+        },
+        "current_lesson_start_timestamp": "2022-11-24T08:21:29.2455300+00:00",
+        "last_completed_lesson_activity": "0-11-11",
+        "randomized_lesson_matrix_directory": {},
+        "last_completed_lesson_activity_timestamp": "2022-11-24T08:27:20.1187080+00:00"
+      },
+      "assessment_submission_data": {
+        "sections": {
+          "eye_tracking": {
+            "Her feet got hurt.": {
+              "default": {
+                "correct": false,
+                "answered": true,
+                "time_taken": 30659
+              }
+            },
+            "They cut the long weeds.": {
+              "default": {
+                "correct": false,
+                "answered": true,
+                "time_taken": 50037
+              }
+            }
+          },
+          "tricky_words": {
+            "be": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 2242
+              }
+            },
+            "he": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 2805
+              }
+            },
+            "me": {
+              "default": {
+                "correct": false,
+                "answered": true,
+                "time_taken": 6527
+              }
+            },
+            "my": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1827
+              }
+            },
+            "we": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 4471
+              }
+            },
+            "all": {
+              "default": {
+                "correct": false,
+                "answered": true,
+                "time_taken": 4139
+              }
+            },
+            "are": {
+              "default": {
+                "correct": false,
+                "answered": true,
+                "time_taken": 3869
+              }
+            },
+            "she": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 2579
+              }
+            },
+            "was": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1852
+              }
+            },
+            "you": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1378
+              }
+            },
+            "live": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1562
+              }
+            },
+            "they": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1759
+              }
+            },
+            "what": {
+              "default": {
+                "correct": false,
+                "answered": true,
+                "time_taken": 7833
+              }
+            }
+          },
+          "nonsense_words": {
+            "joo": {
+              "default": {
+                "correct": false,
+                "answered": true,
+                "time_taken": 10175
+              }
+            },
+            "var": {
+              "default": {
+                "correct": false,
+                "answered": true,
+                "time_taken": 3601
+              }
+            },
+            "woat": {
+              "default": {
+                "correct": false,
+                "answered": true,
+                "time_taken": 14205
+              }
+            },
+            "zear": {
+              "default": {
+                "correct": false,
+                "answered": true,
+                "time_taken": 11122
+              }
+            },
+            "churk": {
+              "default": {
+                "correct": false,
+                "answered": true,
+                "time_taken": 8727
+              }
+            },
+            "shoin": {
+              "default": {
+                "correct": false,
+                "answered": true,
+                "time_taken": 12034
+              }
+            }
+          },
+          "grapheme_recognition": {
+            "j": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 5536
+              }
+            },
+            "v": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1424
+              }
+            },
+            "w": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1121
+              }
+            },
+            "x": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1142
+              }
+            },
+            "y": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1152
+              }
+            },
+            "z": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1032
+              }
+            },
+            "ai": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1472
+              }
+            },
+            "ar": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1282
+              }
+            },
+            "ch": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1130
+              }
+            },
+            "ee": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1642
+              }
+            },
+            "er": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1682
+              }
+            },
+            "ng": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1302
+              }
+            },
+            "oa": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1467
+              }
+            },
+            "oi": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1968
+              }
+            },
+            "oo": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 2778
+              }
+            },
+            "or": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1682
+              }
+            },
+            "ow": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1307
+              }
+            },
+            "qu": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1928
+              }
+            },
+            "sh": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1232
+              }
+            },
+            "th": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1886
+              }
+            },
+            "ur": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1897
+              }
+            },
+            "air": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 7825
+              }
+            },
+            "ear": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 4381
+              }
+            },
+            "igh": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1173
+              }
+            }
+          },
+          "sounding_out_and_blending": {
+            "jam": {
+              "blending": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 827
+              },
+              "sounding_out": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 7638
+              }
+            },
+            "chip": {
+              "blending": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 567
+              },
+              "sounding_out": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 3042
+              }
+            },
+            "coin": {
+              "blending": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 829
+              },
+              "sounding_out": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 8165
+              }
+            },
+            "feet": {
+              "blending": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1158
+              },
+              "sounding_out": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 7397
+              }
+            },
+            "torn": {
+              "blending": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 762
+              },
+              "sounding_out": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 7023
+              }
+            },
+            "shark": {
+              "blending": {
+                "correct": false,
+                "answered": true,
+                "time_taken": 4688
+              },
+              "sounding_out": {
+                "correct": false,
+                "answered": true,
+                "time_taken": 13106
+              }
+            }
+          }
+        },
+        "completed": "2022-11-21T10:49:30.914566+00:00"
+      },
+      "library_data": {
+        "book_session": {},
+        "session_version": 1,
+        "current_book_progress": {
+          "book_id": "books.natcooks.xml",
+          "presentation": "HybridBook",
+          "paragraph_index": 0
+        },
+        "last_session_timestamp": "2022-11-24T08:28:33.2769080+00:00"
+      }
+    },
+    "amanda_jones": {
+      "assessment_scores": {
+        "total": {
+          "score": 54,
+          "score_decimal": 0.9473684210526315,
+          "max_possible_score": 57
+        },
+        "eye_tracking": {
+          "default": {
+            "fail": true,
+            "score": 1,
+            "fail_reason": "smaller_text_incorrect",
+            "score_decimal": 0.5,
+            "average_time_total": 18830.0,
+            "max_possible_score": 2,
+            "average_time_correct": 14195.0
+          }
+        },
+        "tricky_words": {
+          "default": {
+            "score": 13,
+            "score_decimal": 1.0,
+            "average_time_total": 1662.1538461538462,
+            "max_possible_score": 13,
+            "average_time_correct": 1662.1538461538462
+          }
+        },
+        "nonsense_words": {
+          "default": {
+            "score": 4,
+            "score_decimal": 0.6666666666666666,
+            "average_time_total": 4481.0,
+            "max_possible_score": 6,
+            "average_time_correct": 3436.0
+          }
+        },
+        "grapheme_recognition": {
+          "default": {
+            "score": 24,
+            "score_decimal": 1.0,
+            "average_time_total": 1503.625,
+            "max_possible_score": 24,
+            "average_time_correct": 1503.625
+          }
+        },
+        "sounding_out_and_blending": {
+          "blending": {
+            "score": 6,
+            "score_decimal": 1.0,
+            "average_time_total": 643.8333333333334,
+            "max_possible_score": 6,
+            "average_time_correct": 643.8333333333334
+          },
+          "sounding_out": {
+            "score": 6,
+            "score_decimal": 1.0,
+            "average_time_total": 6239.666666666667,
+            "max_possible_score": 6,
+            "average_time_correct": 6239.666666666667
+          }
+        }
+      },
+      "learning_data": {
+        "session_version": 1,
+        "curriculum_track": "school",
+        "curriculum_version": 1,
+        "lesson_history_log": [
+          {
+            "score": 0,
+            "timestamp": "2022-10-13T16:37:16.1334220+01:00",
+            "minigame_id": "RabbitRun",
+            "lesson_stamp": "0-0-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-13T16:41:44.0147770+01:00",
+            "minigame_id": "CharacterPaintball",
+            "lesson_stamp": "0-0-7",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-13T16:54:35.5228720+01:00",
+            "minigame_id": "RabbitRun",
+            "lesson_stamp": "0-0-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-14T16:01:41.6002300+01:00",
+            "minigame_id": "RabbitRun",
+            "lesson_stamp": "0-0-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-17T17:25:20.1893420+01:00",
+            "minigame_id": "CharacterPaintball",
+            "lesson_stamp": "0-0-7",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-17T17:29:42.3019690+01:00",
+            "minigame_id": "RabbitRun",
+            "lesson_stamp": "0-0-1",
+            "feedback_index": 2,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-18T16:22:16.0742930+01:00",
+            "minigame_id": "RabbitRun",
+            "lesson_stamp": "0-0-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-18T16:26:34.9389830+01:00",
+            "minigame_id": "CharacterPaintball",
+            "lesson_stamp": "0-0-7",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-19T16:45:26.0741060+01:00",
+            "minigame_id": "RabbitRun",
+            "lesson_stamp": "0-0-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-19T16:49:37.0992050+01:00",
+            "minigame_id": "CharacterPaintball",
+            "lesson_stamp": "0-0-7",
+            "feedback_index": 2,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-19T16:54:09.0099560+01:00",
+            "minigame_id": "FunFighterMission",
+            "lesson_stamp": "0-0-11",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-20T11:34:06.9019780+01:00",
+            "minigame_id": "RabbitRun",
+            "lesson_stamp": "0-0-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-20T11:41:55.8591190+01:00",
+            "minigame_id": "CharacterPaintball",
+            "lesson_stamp": "0-0-7",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-20T11:44:57.6162920+01:00",
+            "minigame_id": "FunFighterMission",
+            "lesson_stamp": "0-0-11",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-25T17:48:03.9061230+01:00",
+            "minigame_id": "CharacterSearch",
+            "lesson_stamp": "0-1-8",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 28,
+            "timestamp": "2022-10-25T17:50:01.4999780+01:00",
+            "minigame_id": "Eggi",
+            "lesson_stamp": "0-1-10",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-26T15:57:49.5862680+01:00",
+            "minigame_id": "CharacterPaintball",
+            "lesson_stamp": "0-2-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-26T16:00:21.4195650+01:00",
+            "minigame_id": "SoundSearch",
+            "lesson_stamp": "0-2-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-26T16:04:02.6041060+01:00",
+            "minigame_id": "MoleWhacker",
+            "lesson_stamp": "0-2-6",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-27T11:46:11.0536440+01:00",
+            "minigame_id": "CharacterSearch",
+            "lesson_stamp": "0-3-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-27T11:49:03.9977720+01:00",
+            "minigame_id": "RoomTidy",
+            "lesson_stamp": "0-3-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-27T11:50:45.7125620+01:00",
+            "minigame_id": "SoundPicker",
+            "lesson_stamp": "0-3-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-27T11:52:55.5065370+01:00",
+            "minigame_id": "FunFighterMission",
+            "lesson_stamp": "0-3-5",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-28T14:33:46.5720690+01:00",
+            "minigame_id": "CharacterPaintball",
+            "lesson_stamp": "0-4-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-28T14:36:14.5347380+01:00",
+            "minigame_id": "WordBuilder",
+            "lesson_stamp": "0-4-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-28T14:37:59.8290790+01:00",
+            "minigame_id": "SoundPicker",
+            "lesson_stamp": "0-4-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-28T14:41:14.5469550+01:00",
+            "minigame_id": "LetterPaintball",
+            "lesson_stamp": "0-4-9",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-28T14:43:13.6324520+01:00",
+            "minigame_id": "RabbitRun",
+            "lesson_stamp": "0-4-11",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-30T17:51:09.0064910+00:00",
+            "minigame_id": "SoundSearch",
+            "lesson_stamp": "0-5-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-30T17:53:45.0056040+00:00",
+            "minigame_id": "RoomTidy",
+            "lesson_stamp": "0-5-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-30T17:55:33.6029300+00:00",
+            "minigame_id": "WordBuilder",
+            "lesson_stamp": "0-5-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-30T17:57:18.3361550+00:00",
+            "minigame_id": "Eggi",
+            "lesson_stamp": "0-5-10",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-31T17:16:42.7510400+00:00",
+            "minigame_id": "CharacterSearch",
+            "lesson_stamp": "0-6-6",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": false
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-31T17:18:38.4933120+00:00",
+            "minigame_id": "CharacterPaintball",
+            "lesson_stamp": "0-6-8",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-31T17:22:44.5299190+00:00",
+            "minigame_id": "FingerDance",
+            "lesson_stamp": "0-6-10",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-01T16:02:41.4559420+00:00",
+            "minigame_id": "CharacterFingerDance",
+            "lesson_stamp": "0-7-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-01T16:04:27.8441050+00:00",
+            "minigame_id": "CharacterSearch",
+            "lesson_stamp": "0-7-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-01T16:08:41.8169240+00:00",
+            "minigame_id": "MoleWhacker",
+            "lesson_stamp": "0-7-5",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-03T16:42:59.9640520+00:00",
+            "minigame_id": "SoundSearch",
+            "lesson_stamp": "0-8-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-03T16:44:45.6448330+00:00",
+            "minigame_id": "SoundPicker",
+            "lesson_stamp": "0-8-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-03T16:46:56.1724280+00:00",
+            "minigame_id": "WordPicker",
+            "lesson_stamp": "0-8-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-03T16:50:41.2090620+00:00",
+            "minigame_id": "Fishing",
+            "lesson_stamp": "0-8-5",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-06T16:02:59.9436870+00:00",
+            "minigame_id": "PicturePicker",
+            "lesson_stamp": "0-9-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-06T16:06:24.5510030+00:00",
+            "minigame_id": "LetterFishing",
+            "lesson_stamp": "0-9-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-06T16:09:23.9638460+00:00",
+            "minigame_id": "WordPaintball",
+            "lesson_stamp": "0-9-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-06T16:14:08.9555010+00:00",
+            "minigame_id": "LetterFingerDance",
+            "lesson_stamp": "0-9-9",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "timestamp": "2022-11-06T16:16:33.7170710+00:00",
+            "minigame_id": "FunPinball",
+            "lesson_stamp": "0-9-11"
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-07T17:19:09.2199540+00:00",
+            "minigame_id": "WordSnap",
+            "lesson_stamp": "0-10-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-07T17:21:21.9197850+00:00",
+            "minigame_id": "WordPicker",
+            "lesson_stamp": "0-10-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-07T17:24:13.6415390+00:00",
+            "minigame_id": "FighterMission",
+            "lesson_stamp": "0-10-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-07T17:26:40.6889990+00:00",
+            "minigame_id": "RabbitRun",
+            "lesson_stamp": "0-10-9",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-08T16:40:44.4385400+00:00",
+            "minigame_id": "CharacterFingerDance",
+            "lesson_stamp": "0-11-7",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-08T16:43:08.3222340+00:00",
+            "minigame_id": "FunFighterMission",
+            "lesson_stamp": "0-11-9",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-09T18:39:00.4671750+00:00",
+            "minigame_id": "CharacterSearch",
+            "lesson_stamp": "0-12-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-09T18:41:05.1222090+00:00",
+            "minigame_id": "SoundPicker",
+            "lesson_stamp": "0-12-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-10T16:40:16.9211040+00:00",
+            "minigame_id": "Fishing",
+            "lesson_stamp": "0-12-6",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-10T16:44:55.2498230+00:00",
+            "minigame_id": "RoomTidy",
+            "lesson_stamp": "0-13-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-10T16:47:08.9767080+00:00",
+            "minigame_id": "SoundSearch",
+            "lesson_stamp": "0-13-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-10T16:49:27.3759070+00:00",
+            "minigame_id": "WordPicker",
+            "lesson_stamp": "0-13-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-12T14:50:43.2992510+00:00",
+            "minigame_id": "RabbitRun",
+            "lesson_stamp": "0-13-5",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-14T17:24:07.3721080+00:00",
+            "minigame_id": "PicturePicker",
+            "lesson_stamp": "0-14-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-14T17:30:04.6633570+00:00",
+            "minigame_id": "LetterQuest",
+            "lesson_stamp": "0-14-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-14T17:33:02.7651750+00:00",
+            "minigame_id": "WordPaintball",
+            "lesson_stamp": "0-14-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-14T17:37:21.3089930+00:00",
+            "minigame_id": "LetterPaintball",
+            "lesson_stamp": "0-14-8",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-14T17:40:14.3757200+00:00",
+            "minigame_id": "FunSkeetShoot",
+            "lesson_stamp": "0-14-10",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-15T16:00:27.4792290+00:00",
+            "minigame_id": "WordSnap",
+            "lesson_stamp": "0-15-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-15T16:03:11.5918950+00:00",
+            "minigame_id": "TrainertextBuilder",
+            "lesson_stamp": "0-15-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-15T16:05:50.5149750+00:00",
+            "minigame_id": "SkeetShoot",
+            "lesson_stamp": "0-15-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-15T16:08:27.4707830+00:00",
+            "minigame_id": "FingerDance",
+            "lesson_stamp": "0-15-9",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-16T18:03:02.5755100+00:00",
+            "minigame_id": "CharacterFingerDance",
+            "lesson_stamp": "0-16-7",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-16T18:06:05.7936660+00:00",
+            "minigame_id": "FunPinball",
+            "lesson_stamp": "0-16-9",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-17T19:13:13.4580950+00:00",
+            "minigame_id": "CharacterSearch",
+            "lesson_stamp": "0-17-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-17T19:15:03.7418050+00:00",
+            "minigame_id": "SoundPicker",
+            "lesson_stamp": "0-17-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-17T19:20:05.3018990+00:00",
+            "minigame_id": "FunSkeetShoot",
+            "lesson_stamp": "0-17-5",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-20T13:53:36.8526770+00:00",
+            "minigame_id": "SoundSearch",
+            "lesson_stamp": "0-18-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-20T13:56:23.7061850+00:00",
+            "minigame_id": "RoomTidy",
+            "lesson_stamp": "0-18-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-20T13:58:40.5503460+00:00",
+            "minigame_id": "WordSnap",
+            "lesson_stamp": "0-18-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-20T14:00:29.0312640+00:00",
+            "minigame_id": "RabbitRun",
+            "lesson_stamp": "0-18-5",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-22T16:54:35.2372800+00:00",
+            "minigame_id": "PicturePicker",
+            "lesson_stamp": "0-19-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-22T16:56:46.4422110+00:00",
+            "minigame_id": "LetterFishing",
+            "lesson_stamp": "0-19-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-22T16:59:13.0479720+00:00",
+            "minigame_id": "FighterMission",
+            "lesson_stamp": "0-19-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-22T17:01:46.1142470+00:00",
+            "minigame_id": "LetterPaintball",
+            "lesson_stamp": "0-19-8",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-22T17:03:37.9707140+00:00",
+            "minigame_id": "MoleWhacker",
+            "lesson_stamp": "0-19-10",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-25T16:12:32.8607770+00:00",
+            "minigame_id": "TrainertextBuilder",
+            "lesson_stamp": "0-20-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-25T16:14:41.9252260+00:00",
+            "minigame_id": "LetterQuest",
+            "lesson_stamp": "0-20-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-25T16:16:52.8433110+00:00",
+            "minigame_id": "SkeetShoot",
+            "lesson_stamp": "0-20-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-25T16:20:29.3551270+00:00",
+            "minigame_id": "Fishing",
+            "lesson_stamp": "0-20-10",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-26T11:43:45.6561860+00:00",
+            "minigame_id": "CharacterSearch",
+            "lesson_stamp": "0-21-8",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-26T11:45:54.7279710+00:00",
+            "minigame_id": "FunFighterMission",
+            "lesson_stamp": "0-21-10",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-27T13:00:01.2071020+00:00",
+            "minigame_id": "CharacterSearch",
+            "lesson_stamp": "0-22-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-27T13:01:59.2790610+00:00",
+            "minigame_id": "SoundPicker",
+            "lesson_stamp": "0-22-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-27T13:05:32.0722710+00:00",
+            "minigame_id": "FunSkeetShoot",
+            "lesson_stamp": "0-22-6",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-28T11:28:40.9650990+00:00",
+            "minigame_id": "SoundSearch",
+            "lesson_stamp": "0-23-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-28T11:30:23.0223690+00:00",
+            "minigame_id": "SoundPicker",
+            "lesson_stamp": "0-23-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-28T11:33:15.4597470+00:00",
+            "minigame_id": "WordSnap",
+            "lesson_stamp": "0-23-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "timestamp": "2022-11-28T11:35:20.4504180+00:00",
+            "minigame_id": "FunPinball",
+            "lesson_stamp": "0-23-5"
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-29T15:53:07.2643800+00:00",
+            "minigame_id": "WordPicker",
+            "lesson_stamp": "0-24-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-29T15:56:46.3831260+00:00",
+            "minigame_id": "Pinball",
+            "lesson_stamp": "0-24-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-29T15:59:36.8459410+00:00",
+            "minigame_id": "SkeetShoot",
+            "lesson_stamp": "0-24-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-29T16:02:51.9788790+00:00",
+            "minigame_id": "LetterFingerDance",
+            "lesson_stamp": "0-24-9",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-29T16:04:43.9187950+00:00",
+            "minigame_id": "RabbitRun",
+            "lesson_stamp": "0-24-11",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-01T17:24:20.4118970+00:00",
+            "minigame_id": "PicturePicker",
+            "lesson_stamp": "0-25-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-01T17:26:42.4653670+00:00",
+            "minigame_id": "FighterMission",
+            "lesson_stamp": "0-25-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-01T17:28:56.3055610+00:00",
+            "minigame_id": "WordPaintball",
+            "lesson_stamp": "0-25-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 32,
+            "timestamp": "2022-12-01T17:30:09.1436100+00:00",
+            "minigame_id": "Eggi",
+            "lesson_stamp": "0-25-5",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-02T12:57:51.3971570+00:00",
+            "minigame_id": "CharacterSearch",
+            "lesson_stamp": "1-0-1",
+            "feedback_index": 1,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-02T12:59:48.4436810+00:00",
+            "minigame_id": "WordBuilder",
+            "lesson_stamp": "1-0-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-02T13:02:12.5130210+00:00",
+            "minigame_id": "FighterMission",
+            "lesson_stamp": "1-0-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-02T13:04:38.2343150+00:00",
+            "minigame_id": "MoleWhacker",
+            "lesson_stamp": "1-0-5",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-03T16:25:44.7871200+00:00",
+            "minigame_id": "CharacterPaintball",
+            "lesson_stamp": "1-1-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-03T16:27:55.6886640+00:00",
+            "minigame_id": "SoundSearch",
+            "lesson_stamp": "1-1-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-03T16:30:51.7117340+00:00",
+            "minigame_id": "WordBuilder",
+            "lesson_stamp": "1-1-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-03T16:33:56.9303540+00:00",
+            "minigame_id": "Fishing",
+            "lesson_stamp": "1-1-5",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-05T17:16:00.1052710+00:00",
+            "minigame_id": "SoundPicker",
+            "lesson_stamp": "1-2-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-05T17:17:46.3583120+00:00",
+            "minigame_id": "RoomTidy",
+            "lesson_stamp": "1-2-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-05T17:20:29.3851070+00:00",
+            "minigame_id": "WordSnap",
+            "lesson_stamp": "1-2-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-05T17:23:01.0608430+00:00",
+            "minigame_id": "Fishing",
+            "lesson_stamp": "1-2-5",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-06T15:53:14.1569490+00:00",
+            "minigame_id": "WordPicker",
+            "lesson_stamp": "1-3-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-06T15:56:00.3385750+00:00",
+            "minigame_id": "LetterQuest",
+            "lesson_stamp": "1-3-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-06T15:58:33.0429940+00:00",
+            "minigame_id": "WordPaintball",
+            "lesson_stamp": "1-3-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-06T16:03:18.6318560+00:00",
+            "minigame_id": "Fishing",
+            "lesson_stamp": "1-3-5",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-14T17:56:04.1946480+00:00",
+            "minigame_id": "PicturePicker",
+            "lesson_stamp": "1-4-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-14T18:13:29.2827040+00:00",
+            "minigame_id": "TrainertextBuilder",
+            "lesson_stamp": "1-4-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-14T18:16:05.5529040+00:00",
+            "minigame_id": "FighterMission",
+            "lesson_stamp": "1-4-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-14T18:19:34.9982340+00:00",
+            "minigame_id": "FingerDance",
+            "lesson_stamp": "1-4-10",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-15T16:17:23.5291410+00:00",
+            "minigame_id": "CharacterSearch",
+            "lesson_stamp": "1-5-6",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": false
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-15T16:19:24.5766700+00:00",
+            "minigame_id": "CharacterFingerDance",
+            "lesson_stamp": "1-5-8",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-15T16:21:09.3996100+00:00",
+            "minigame_id": "FingerDance",
+            "lesson_stamp": "1-5-10",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          }
+        ],
+        "level_session_directory": {
+          "0": {
+            "best_score": 32,
+            "best_dtt_rating": 0,
+            "best_fast_correct_reading_rating": 1
+          },
+          "1": {
+            "best_score": 0,
+            "best_dtt_rating": 0,
+            "best_fast_correct_reading_rating": 1
+          }
+        },
+        "minigame_session_directory": {
+          "Eggi": {
+            "complexity_sessions": [
+              {
+                "best_score": 32,
+                "gaming_adaptiveness": 0,
+                "gaming_adaptiveness_up_step": 0
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "Fishing": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.732771933078766,
+                "gaming_adaptiveness_up_step": 0.0799999982118607
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "Pinball": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.0199999995529652,
+                "gaming_adaptiveness_up_step": 0.0199999995529652
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "RoomTidy": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.25,
+                "gaming_adaptiveness_up_step": 0.0500000007450581
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "WordSnap": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0,
+                "gaming_adaptiveness_up_step": 0
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "RabbitRun": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.0640000030398369,
+                "gaming_adaptiveness_up_step": 0.0160000007599592
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "FunPinball": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.0199999995529652,
+                "gaming_adaptiveness_up_step": 0.0199999995529652
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "SkeetShoot": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.200500220060349,
+                "gaming_adaptiveness_up_step": 0.0500000007450581
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "WordPicker": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0,
+                "gaming_adaptiveness_up_step": 0
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "FingerDance": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.220000028610229,
+                "gaming_adaptiveness_up_step": 0.100000001490116
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "LetterQuest": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.0199999995529652,
+                "gaming_adaptiveness_up_step": 0.0199999995529652
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "MoleWhacker": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.315500259399414,
+                "gaming_adaptiveness_up_step": 0.0500000007450581
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "SoundPicker": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0,
+                "gaming_adaptiveness_up_step": 0
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "SoundSearch": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.100000001490116,
+                "gaming_adaptiveness_up_step": 0.0500000007450581
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "WordBuilder": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.269759893417358,
+                "gaming_adaptiveness_up_step": 0.0700000002980232
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "FunSkeetShoot": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.384500026702881,
+                "gaming_adaptiveness_up_step": 0.0500000007450581
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "LetterFishing": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.255999982357025,
+                "gaming_adaptiveness_up_step": 0.0799999982118607
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "PicturePicker": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0,
+                "gaming_adaptiveness_up_step": 0
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "WordPaintball": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.400000035762787,
+                "gaming_adaptiveness_up_step": 0.0500000007450581
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "FighterMission": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.600000023841858,
+                "gaming_adaptiveness_up_step": 0.100000001490116
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "CharacterSearch": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0,
+                "gaming_adaptiveness_up_step": 0
+              },
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.500000059604645,
+                "gaming_adaptiveness_up_step": 0.0500000007450581
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "LetterPaintball": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.150000005960464,
+                "gaming_adaptiveness_up_step": 0.0500000007450581
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "FunFighterMission": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.340000003576279,
+                "gaming_adaptiveness_up_step": 0.100000001490116
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "LetterFingerDance": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.600000023841858,
+                "gaming_adaptiveness_up_step": 0.100000001490116
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "CharacterPaintball": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.0576000027358532,
+                "gaming_adaptiveness_up_step": 0.0576000027358532
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "TrainertextBuilder": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.407799959182739,
+                "gaming_adaptiveness_up_step": 0.0700000002980232
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "CharacterFingerDance": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.690000176429749,
+                "gaming_adaptiveness_up_step": 0.100000001490116
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          }
+        },
+        "current_lesson_start_timestamp": "2022-12-15T16:15:40.3253350+00:00",
+        "last_completed_lesson_activity": "1-5-12",
+        "randomized_lesson_matrix_directory": {},
+        "last_completed_lesson_activity_timestamp": "2022-12-15T16:21:37.0439880+00:00"
+      },
+      "assessment_submission_data": {
+        "sections": {
+          "eye_tracking": {
+            "Her feet got hurt.": {
+              "default": {
+                "correct": false,
+                "answered": true,
+                "time_taken": 23465
+              }
+            },
+            "They cut the long weeds.": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 14195
+              }
+            }
+          },
+          "tricky_words": {
+            "be": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1098
+              }
+            },
+            "he": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 3557
+              }
+            },
+            "me": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1098
+              }
+            },
+            "my": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 2518
+              }
+            },
+            "we": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1387
+              }
+            },
+            "all": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1268
+              }
+            },
+            "are": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1333
+              }
+            },
+            "she": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1053
+              }
+            },
+            "was": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1844
+              }
+            },
+            "you": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1046
+              }
+            },
+            "live": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1299
+              }
+            },
+            "they": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1178
+              }
+            },
+            "what": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 2929
+              }
+            }
+          },
+          "nonsense_words": {
+            "joo": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 2998
+              }
+            },
+            "var": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 3441
+              }
+            },
+            "woat": {
+              "default": {
+                "correct": false,
+                "answered": true,
+                "time_taken": 5989
+              }
+            },
+            "zear": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 2928
+              }
+            },
+            "churk": {
+              "default": {
+                "correct": false,
+                "answered": true,
+                "time_taken": 7153
+              }
+            },
+            "shoin": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 4377
+              }
+            }
+          },
+          "grapheme_recognition": {
+            "j": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1586
+              }
+            },
+            "v": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1321
+              }
+            },
+            "w": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1168
+              }
+            },
+            "x": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1156
+              }
+            },
+            "y": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1152
+              }
+            },
+            "z": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1211
+              }
+            },
+            "ai": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1528
+              }
+            },
+            "ar": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1408
+              }
+            },
+            "ch": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1084
+              }
+            },
+            "ee": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1282
+              }
+            },
+            "er": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 2317
+              }
+            },
+            "ng": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1522
+              }
+            },
+            "oa": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1329
+              }
+            },
+            "oi": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1245
+              }
+            },
+            "oo": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 2880
+              }
+            },
+            "or": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 2072
+              }
+            },
+            "ow": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1253
+              }
+            },
+            "qu": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1423
+              }
+            },
+            "sh": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 2451
+              }
+            },
+            "th": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1168
+              }
+            },
+            "ur": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1543
+              }
+            },
+            "air": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1359
+              }
+            },
+            "ear": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1286
+              }
+            },
+            "igh": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1343
+              }
+            }
+          },
+          "sounding_out_and_blending": {
+            "jam": {
+              "blending": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 847
+              },
+              "sounding_out": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 4267
+              }
+            },
+            "chip": {
+              "blending": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 513
+              },
+              "sounding_out": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 4351
+              }
+            },
+            "coin": {
+              "blending": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 554
+              },
+              "sounding_out": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 3436
+              }
+            },
+            "feet": {
+              "blending": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 508
+              },
+              "sounding_out": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 4937
+              }
+            },
+            "torn": {
+              "blending": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 746
+              },
+              "sounding_out": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 15861
+              }
+            },
+            "shark": {
+              "blending": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 695
+              },
+              "sounding_out": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 4586
+              }
+            }
+          }
+        },
+        "completed": "2022-11-22T09:19:23.279283+00:00"
+      },
+      "library_data": {
+        "book_session": {
+          "books.amap.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-10-27T11:56:53.0308150+01:00"
+          },
+          "books.sidsat.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-10-25T17:55:40.2942000+01:00"
+          },
+          "books.topdog.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-10-28T14:50:00.0739560+01:00"
+          },
+          "books.theseed.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-11-15T16:18:28.2433980+00:00"
+          },
+          "books.natcooks.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-11-03T16:59:49.1013720+00:00"
+          },
+          "books.sitandtip.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-10-27T12:01:02.5479710+01:00"
+          },
+          "books.pimandsamnap.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-10-25T17:58:06.8013900+01:00"
+          },
+          "books.dadpacksasack.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-10-28T14:52:10.9529200+01:00"
+          },
+          "books.asharkinthepool.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-11-06T17:51:49.9655330+00:00"
+          },
+          "books.theoononthemoon.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-10-30T18:06:21.6227910+00:00"
+          },
+          "books.timandthebigrats.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-12-14T17:53:28.8476960+00:00"
+          }
+        },
+        "session_version": 1,
+        "last_session_timestamp": "2022-12-14T17:53:28.8476570+00:00"
+      }
+    },
+    "ralph_thompson": {
+      "assessment_scores": {
+        "total": {
+          "score": 57,
+          "score_decimal": 1.0,
+          "max_possible_score": 57
+        },
+        "eye_tracking": {
+          "default": {
+            "fail": false,
+            "score": 2,
+            "fail_reason": "",
+            "score_decimal": 1.0,
+            "average_time_total": 4006.0,
+            "max_possible_score": 2,
+            "average_time_correct": 4006.0
+          }
+        },
+        "tricky_words": {
+          "default": {
+            "score": 13,
+            "score_decimal": 1.0,
+            "average_time_total": 1079.6923076923076,
+            "max_possible_score": 13,
+            "average_time_correct": 1079.6923076923076
+          }
+        },
+        "nonsense_words": {
+          "default": {
+            "score": 6,
+            "score_decimal": 1.0,
+            "average_time_total": 1694.0,
+            "max_possible_score": 6,
+            "average_time_correct": 1694.0
+          }
+        },
+        "grapheme_recognition": {
+          "default": {
+            "score": 24,
+            "score_decimal": 1.0,
+            "average_time_total": 1080.7916666666667,
+            "max_possible_score": 24,
+            "average_time_correct": 1080.7916666666667
+          }
+        },
+        "sounding_out_and_blending": {
+          "blending": {
+            "score": 6,
+            "score_decimal": 1.0,
+            "average_time_total": 402.0,
+            "max_possible_score": 6,
+            "average_time_correct": 402.0
+          },
+          "sounding_out": {
+            "score": 6,
+            "score_decimal": 1.0,
+            "average_time_total": 3253.0,
+            "max_possible_score": 6,
+            "average_time_correct": 3253.0
+          }
+        }
+      },
+      "learning_data": {
+        "session_version": 1,
+        "curriculum_track": "school",
+        "curriculum_version": 1,
+        "lesson_history_log": [
+          {
+            "score": 0,
+            "timestamp": "2022-10-20T17:17:41.5255250+01:00",
+            "minigame_id": "RabbitRun",
+            "lesson_stamp": "0-0-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-20T17:21:51.6763560+01:00",
+            "minigame_id": "CharacterPaintball",
+            "lesson_stamp": "0-0-7",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-20T17:25:32.3059350+01:00",
+            "minigame_id": "FunFighterMission",
+            "lesson_stamp": "0-0-11",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-21T07:53:07.9458420+01:00",
+            "minigame_id": "CharacterSearch",
+            "lesson_stamp": "0-1-8",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 72,
+            "timestamp": "2022-10-21T07:55:53.7125740+01:00",
+            "minigame_id": "Eggi",
+            "lesson_stamp": "0-1-10",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-22T08:55:07.1539170+01:00",
+            "minigame_id": "CharacterPaintball",
+            "lesson_stamp": "0-2-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-22T08:57:38.9444880+01:00",
+            "minigame_id": "SoundSearch",
+            "lesson_stamp": "0-2-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-22T09:01:09.7403650+01:00",
+            "minigame_id": "MoleWhacker",
+            "lesson_stamp": "0-2-6",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-23T11:26:56.9135310+01:00",
+            "minigame_id": "CharacterSearch",
+            "lesson_stamp": "0-3-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-23T11:29:19.7450020+01:00",
+            "minigame_id": "RoomTidy",
+            "lesson_stamp": "0-3-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-23T11:31:02.6589240+01:00",
+            "minigame_id": "SoundPicker",
+            "lesson_stamp": "0-3-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-23T11:32:55.6942930+01:00",
+            "minigame_id": "FunFighterMission",
+            "lesson_stamp": "0-3-5",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-28T13:41:56.1244150+01:00",
+            "minigame_id": "CharacterPaintball",
+            "lesson_stamp": "0-4-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-28T13:44:10.5623880+01:00",
+            "minigame_id": "WordBuilder",
+            "lesson_stamp": "0-4-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-28T15:53:48.5844650+01:00",
+            "minigame_id": "SoundPicker",
+            "lesson_stamp": "0-4-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-28T15:57:19.7420400+01:00",
+            "minigame_id": "LetterPaintball",
+            "lesson_stamp": "0-4-9",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-28T15:59:16.6848310+01:00",
+            "minigame_id": "RabbitRun",
+            "lesson_stamp": "0-4-11",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-29T09:09:53.9863680+01:00",
+            "minigame_id": "SoundSearch",
+            "lesson_stamp": "0-5-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-29T09:11:56.9885720+01:00",
+            "minigame_id": "RoomTidy",
+            "lesson_stamp": "0-5-2",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-29T09:13:37.0668960+01:00",
+            "minigame_id": "WordBuilder",
+            "lesson_stamp": "0-5-3",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 68,
+            "timestamp": "2022-10-29T09:16:18.3499840+01:00",
+            "minigame_id": "Eggi",
+            "lesson_stamp": "0-5-10",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-30T13:38:37.8654450+00:00",
+            "minigame_id": "CharacterSearch",
+            "lesson_stamp": "0-6-6",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": false
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-30T13:40:47.2548430+00:00",
+            "minigame_id": "CharacterPaintball",
+            "lesson_stamp": "0-6-8",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-30T13:43:29.1200530+00:00",
+            "minigame_id": "FingerDance",
+            "lesson_stamp": "0-6-10",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-31T10:46:39.7335290+00:00",
+            "minigame_id": "CharacterFingerDance",
+            "lesson_stamp": "0-7-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-31T10:48:38.8730230+00:00",
+            "minigame_id": "CharacterSearch",
+            "lesson_stamp": "0-7-2",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-10-31T10:52:33.6020480+00:00",
+            "minigame_id": "MoleWhacker",
+            "lesson_stamp": "0-7-5",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-02T17:36:35.0861980+00:00",
+            "minigame_id": "SoundSearch",
+            "lesson_stamp": "0-8-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-02T17:38:18.0437150+00:00",
+            "minigame_id": "SoundPicker",
+            "lesson_stamp": "0-8-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-02T17:40:34.4332740+00:00",
+            "minigame_id": "WordPicker",
+            "lesson_stamp": "0-8-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-02T17:44:02.7421270+00:00",
+            "minigame_id": "Fishing",
+            "lesson_stamp": "0-8-5",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-03T17:27:59.6575320+00:00",
+            "minigame_id": "PicturePicker",
+            "lesson_stamp": "0-9-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-03T17:30:45.6490820+00:00",
+            "minigame_id": "LetterFishing",
+            "lesson_stamp": "0-9-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-03T17:33:35.0366820+00:00",
+            "minigame_id": "WordPaintball",
+            "lesson_stamp": "0-9-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-03T17:37:27.4033130+00:00",
+            "minigame_id": "LetterFingerDance",
+            "lesson_stamp": "0-9-9",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-03T17:39:23.5577240+00:00",
+            "minigame_id": "FunPinball",
+            "lesson_stamp": "0-9-11",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-04T18:07:55.4096480+00:00",
+            "minigame_id": "WordSnap",
+            "lesson_stamp": "0-10-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-04T18:10:14.9043070+00:00",
+            "minigame_id": "WordPicker",
+            "lesson_stamp": "0-10-2",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-04T18:12:29.4919580+00:00",
+            "minigame_id": "FighterMission",
+            "lesson_stamp": "0-10-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-04T18:15:18.0500370+00:00",
+            "minigame_id": "RabbitRun",
+            "lesson_stamp": "0-10-9",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-05T11:56:52.9904740+00:00",
+            "minigame_id": "CharacterFingerDance",
+            "lesson_stamp": "0-11-7",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-05T11:59:09.9695800+00:00",
+            "minigame_id": "FunFighterMission",
+            "lesson_stamp": "0-11-9",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-07T15:42:09.2373040+00:00",
+            "minigame_id": "CharacterSearch",
+            "lesson_stamp": "0-12-1",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-07T15:44:02.7763590+00:00",
+            "minigame_id": "SoundPicker",
+            "lesson_stamp": "0-12-2",
+            "feedback_index": 2,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-07T15:47:23.4136200+00:00",
+            "minigame_id": "Fishing",
+            "lesson_stamp": "0-12-6",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-09T07:00:49.0538630+00:00",
+            "minigame_id": "RoomTidy",
+            "lesson_stamp": "0-13-1",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-09T07:02:36.0051510+00:00",
+            "minigame_id": "SoundSearch",
+            "lesson_stamp": "0-13-2",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-09T07:04:45.4217700+00:00",
+            "minigame_id": "WordPicker",
+            "lesson_stamp": "0-13-3",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-09T07:06:35.9969960+00:00",
+            "minigame_id": "RabbitRun",
+            "lesson_stamp": "0-13-5",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-10T17:42:26.9965470+00:00",
+            "minigame_id": "RoomTidy",
+            "lesson_stamp": "0-13-1",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-10T17:44:10.5811660+00:00",
+            "minigame_id": "SoundSearch",
+            "lesson_stamp": "0-13-2",
+            "feedback_index": 2,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-10T17:46:24.8505400+00:00",
+            "minigame_id": "WordPicker",
+            "lesson_stamp": "0-13-3",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-10T17:48:15.8994670+00:00",
+            "minigame_id": "RabbitRun",
+            "lesson_stamp": "0-13-5",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-11T19:06:26.2966910+00:00",
+            "minigame_id": "PicturePicker",
+            "lesson_stamp": "0-14-1",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-11T19:10:33.5680070+00:00",
+            "minigame_id": "LetterQuest",
+            "lesson_stamp": "0-14-2",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-11T19:13:00.1158310+00:00",
+            "minigame_id": "WordPaintball",
+            "lesson_stamp": "0-14-3",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-11T19:15:37.1921930+00:00",
+            "minigame_id": "LetterPaintball",
+            "lesson_stamp": "0-14-8",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-11T19:18:22.4297420+00:00",
+            "minigame_id": "FunSkeetShoot",
+            "lesson_stamp": "0-14-10",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-12T18:41:55.5386060+00:00",
+            "minigame_id": "WordSnap",
+            "lesson_stamp": "0-15-1",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-12T18:44:12.0881900+00:00",
+            "minigame_id": "TrainertextBuilder",
+            "lesson_stamp": "0-15-2",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-12T18:47:05.9864580+00:00",
+            "minigame_id": "SkeetShoot",
+            "lesson_stamp": "0-15-3",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-12T18:50:15.0654280+00:00",
+            "minigame_id": "FingerDance",
+            "lesson_stamp": "0-15-9",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-13T15:39:56.9604680+00:00",
+            "minigame_id": "CharacterFingerDance",
+            "lesson_stamp": "0-16-7",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-13T15:42:04.7758370+00:00",
+            "minigame_id": "FunPinball",
+            "lesson_stamp": "0-16-9",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-14T15:32:46.2179460+00:00",
+            "minigame_id": "CharacterSearch",
+            "lesson_stamp": "0-17-1",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-14T15:34:30.9899060+00:00",
+            "minigame_id": "SoundPicker",
+            "lesson_stamp": "0-17-2",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-14T15:38:28.8236280+00:00",
+            "minigame_id": "FunSkeetShoot",
+            "lesson_stamp": "0-17-5",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-15T16:33:59.2969840+00:00",
+            "minigame_id": "SoundSearch",
+            "lesson_stamp": "0-18-1",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-15T16:36:15.6349360+00:00",
+            "minigame_id": "RoomTidy",
+            "lesson_stamp": "0-18-2",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-15T16:38:28.9738710+00:00",
+            "minigame_id": "WordSnap",
+            "lesson_stamp": "0-18-3",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-15T16:40:38.1558670+00:00",
+            "minigame_id": "RabbitRun",
+            "lesson_stamp": "0-18-5",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-16T07:18:13.9940080+00:00",
+            "minigame_id": "PicturePicker",
+            "lesson_stamp": "0-19-1",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-16T07:20:18.4950830+00:00",
+            "minigame_id": "LetterFishing",
+            "lesson_stamp": "0-19-2",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-16T07:22:45.0674930+00:00",
+            "minigame_id": "FighterMission",
+            "lesson_stamp": "0-19-3",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-16T07:25:28.7318580+00:00",
+            "minigame_id": "LetterPaintball",
+            "lesson_stamp": "0-19-8",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-16T07:27:23.9072250+00:00",
+            "minigame_id": "MoleWhacker",
+            "lesson_stamp": "0-19-10",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-17T07:24:44.2714060+00:00",
+            "minigame_id": "TrainertextBuilder",
+            "lesson_stamp": "0-20-1",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-17T07:26:57.6067600+00:00",
+            "minigame_id": "LetterQuest",
+            "lesson_stamp": "0-20-2",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-17T07:29:12.2833180+00:00",
+            "minigame_id": "SkeetShoot",
+            "lesson_stamp": "0-20-3",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-17T07:33:04.7326990+00:00",
+            "minigame_id": "Fishing",
+            "lesson_stamp": "0-20-10",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-18T18:18:24.7795920+00:00",
+            "minigame_id": "CharacterSearch",
+            "lesson_stamp": "0-21-8",
+            "feedback_index": 1,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-18T18:21:13.5518380+00:00",
+            "minigame_id": "FunFighterMission",
+            "lesson_stamp": "0-21-10",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-19T09:09:31.2269080+00:00",
+            "minigame_id": "CharacterSearch",
+            "lesson_stamp": "0-22-1",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-19T09:11:18.5571800+00:00",
+            "minigame_id": "SoundPicker",
+            "lesson_stamp": "0-22-2",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-19T09:14:20.5523400+00:00",
+            "minigame_id": "FunSkeetShoot",
+            "lesson_stamp": "0-22-6",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-21T15:16:23.6553820+00:00",
+            "minigame_id": "SoundSearch",
+            "lesson_stamp": "0-23-1",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-21T15:27:55.5066500+00:00",
+            "minigame_id": "SoundPicker",
+            "lesson_stamp": "0-23-2",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-21T15:30:06.3099070+00:00",
+            "minigame_id": "WordSnap",
+            "lesson_stamp": "0-23-3",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-21T15:31:54.2603940+00:00",
+            "minigame_id": "FunPinball",
+            "lesson_stamp": "0-23-5",
+            "feedback_index": 2,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-22T07:25:03.4511730+00:00",
+            "minigame_id": "WordPicker",
+            "lesson_stamp": "0-24-1",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-22T07:28:17.6551400+00:00",
+            "minigame_id": "Pinball",
+            "lesson_stamp": "0-24-2",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-22T07:30:30.5312030+00:00",
+            "minigame_id": "SkeetShoot",
+            "lesson_stamp": "0-24-3",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-22T15:27:54.0455450+00:00",
+            "minigame_id": "LetterFingerDance",
+            "lesson_stamp": "0-24-9",
+            "feedback_index": 2,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-22T15:29:45.3171170+00:00",
+            "minigame_id": "RabbitRun",
+            "lesson_stamp": "0-24-11",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-23T17:18:23.4136870+00:00",
+            "minigame_id": "PicturePicker",
+            "lesson_stamp": "0-25-1",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-23T17:20:38.9206100+00:00",
+            "minigame_id": "FighterMission",
+            "lesson_stamp": "0-25-2",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-23T17:22:50.2482120+00:00",
+            "minigame_id": "WordPaintball",
+            "lesson_stamp": "0-25-3",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 60,
+            "timestamp": "2022-11-23T17:24:11.7197980+00:00",
+            "minigame_id": "Eggi",
+            "lesson_stamp": "0-25-5",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-24T17:05:57.9879880+00:00",
+            "minigame_id": "CharacterSearch",
+            "lesson_stamp": "1-0-1",
+            "feedback_index": 2,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-24T17:07:47.4395280+00:00",
+            "minigame_id": "WordBuilder",
+            "lesson_stamp": "1-0-2",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-24T17:10:12.0283410+00:00",
+            "minigame_id": "FighterMission",
+            "lesson_stamp": "1-0-3",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-24T17:12:37.0064160+00:00",
+            "minigame_id": "MoleWhacker",
+            "lesson_stamp": "1-0-5",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-25T07:09:32.9806660+00:00",
+            "minigame_id": "CharacterPaintball",
+            "lesson_stamp": "1-1-1",
+            "feedback_index": 2,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-25T07:11:25.6385490+00:00",
+            "minigame_id": "SoundSearch",
+            "lesson_stamp": "1-1-2",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-25T07:13:25.5663430+00:00",
+            "minigame_id": "WordBuilder",
+            "lesson_stamp": "1-1-3",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-25T07:16:00.6607920+00:00",
+            "minigame_id": "Fishing",
+            "lesson_stamp": "1-1-5",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-27T11:10:54.6502400+00:00",
+            "minigame_id": "SoundPicker",
+            "lesson_stamp": "1-2-1",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-27T11:13:28.6040700+00:00",
+            "minigame_id": "RoomTidy",
+            "lesson_stamp": "1-2-2",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-27T11:15:48.9334570+00:00",
+            "minigame_id": "WordSnap",
+            "lesson_stamp": "1-2-3",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-27T11:18:24.2647180+00:00",
+            "minigame_id": "Fishing",
+            "lesson_stamp": "1-2-5",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-28T07:28:09.3686970+00:00",
+            "minigame_id": "WordPicker",
+            "lesson_stamp": "1-3-1",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-28T07:31:29.0865870+00:00",
+            "minigame_id": "LetterQuest",
+            "lesson_stamp": "1-3-2",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-28T07:34:09.5261900+00:00",
+            "minigame_id": "WordPaintball",
+            "lesson_stamp": "1-3-3",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-28T16:59:51.2888270+00:00",
+            "minigame_id": "Fishing",
+            "lesson_stamp": "1-3-5",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-29T15:20:02.6858480+00:00",
+            "minigame_id": "PicturePicker",
+            "lesson_stamp": "1-4-1",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-29T15:23:35.0387340+00:00",
+            "minigame_id": "TrainertextBuilder",
+            "lesson_stamp": "1-4-2",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-29T15:26:18.9939410+00:00",
+            "minigame_id": "FighterMission",
+            "lesson_stamp": "1-4-3",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-30T07:22:29.9672520+00:00",
+            "minigame_id": "FingerDance",
+            "lesson_stamp": "1-4-10",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-30T07:25:20.5295470+00:00",
+            "minigame_id": "CharacterSearch",
+            "lesson_stamp": "1-5-6",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-30T07:27:24.8923460+00:00",
+            "minigame_id": "CharacterFingerDance",
+            "lesson_stamp": "1-5-8",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-11-30T17:02:30.2520810+00:00",
+            "minigame_id": "FingerDance",
+            "lesson_stamp": "1-5-10",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-01T19:19:37.4789590+00:00",
+            "minigame_id": "CharacterPaintball",
+            "lesson_stamp": "1-6-1",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-01T19:21:17.5251400+00:00",
+            "minigame_id": "SoundPicker",
+            "lesson_stamp": "1-6-2",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-01T19:25:15.0629360+00:00",
+            "minigame_id": "FunPinball",
+            "lesson_stamp": "1-6-6",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-09T06:53:52.8846000+00:00",
+            "minigame_id": "SoundSearch",
+            "lesson_stamp": "1-7-1",
+            "feedback_index": 2,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-09T06:55:45.4817450+00:00",
+            "minigame_id": "RoomTidy",
+            "lesson_stamp": "1-7-2",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-09T06:58:06.1154980+00:00",
+            "minigame_id": "WordPicker",
+            "lesson_stamp": "1-7-3",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-09T07:00:23.5257750+00:00",
+            "minigame_id": "FunFighterMission",
+            "lesson_stamp": "1-7-5",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-10T18:40:48.3701760+00:00",
+            "minigame_id": "WordSnap",
+            "lesson_stamp": "1-8-1",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-10T18:43:23.0992890+00:00",
+            "minigame_id": "TrainertextBuilder",
+            "lesson_stamp": "1-8-2",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-10T18:45:35.3807460+00:00",
+            "minigame_id": "SkeetShoot",
+            "lesson_stamp": "1-8-3",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-10T18:48:32.4904430+00:00",
+            "minigame_id": "LetterPaintball",
+            "lesson_stamp": "1-8-9",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-10T18:50:26.1496810+00:00",
+            "minigame_id": "MoleWhacker",
+            "lesson_stamp": "1-8-11",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-12T18:27:08.9180770+00:00",
+            "minigame_id": "LetterFishing",
+            "lesson_stamp": "1-9-1",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-12T18:29:28.1083470+00:00",
+            "minigame_id": "Pinball",
+            "lesson_stamp": "1-9-2",
+            "feedback_index": 1,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-12T18:31:56.3265200+00:00",
+            "minigame_id": "FighterMission",
+            "lesson_stamp": "1-9-3",
+            "feedback_index": 1,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-12T18:34:55.0410700+00:00",
+            "minigame_id": "MoleWhacker",
+            "lesson_stamp": "1-9-9",
+            "feedback_index": 1,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-15T19:19:46.7094380+00:00",
+            "minigame_id": "CharacterPaintball",
+            "lesson_stamp": "1-10-7",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "timestamp": "2022-12-15T19:23:19.9564270+00:00",
+            "minigame_id": "Fishing",
+            "lesson_stamp": "1-10-9"
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-17T18:13:53.1145110+00:00",
+            "minigame_id": "CharacterFingerDance",
+            "lesson_stamp": "1-11-1",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-17T18:15:35.6049940+00:00",
+            "minigame_id": "SoundSearch",
+            "lesson_stamp": "1-11-2",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-17T18:19:05.1198000+00:00",
+            "minigame_id": "FunPinball",
+            "lesson_stamp": "1-11-5",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-18T10:51:40.6804410+00:00",
+            "minigame_id": "RoomTidy",
+            "lesson_stamp": "1-12-1",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-18T10:53:50.0635560+00:00",
+            "minigame_id": "WordPicker",
+            "lesson_stamp": "1-12-2",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-18T10:56:01.0010290+00:00",
+            "minigame_id": "WordSnap",
+            "lesson_stamp": "1-12-3",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-18T10:58:11.2622240+00:00",
+            "minigame_id": "FingerDance",
+            "lesson_stamp": "1-12-5",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-22T16:38:23.7106210+00:00",
+            "minigame_id": "PicturePicker",
+            "lesson_stamp": "1-13-1",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-22T16:40:34.1695340+00:00",
+            "minigame_id": "LetterFishing",
+            "lesson_stamp": "1-13-2",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-22T16:42:52.8673620+00:00",
+            "minigame_id": "SkeetShoot",
+            "lesson_stamp": "1-13-3",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-22T16:45:21.5815450+00:00",
+            "minigame_id": "LetterPaintball",
+            "lesson_stamp": "1-13-8",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-22T16:47:13.8823730+00:00",
+            "minigame_id": "RabbitRun",
+            "lesson_stamp": "1-13-10",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-23T14:09:50.4820200+00:00",
+            "minigame_id": "WordBuilder",
+            "lesson_stamp": "1-14-1",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-23T14:12:45.4567760+00:00",
+            "minigame_id": "LetterQuest",
+            "lesson_stamp": "1-14-2",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-23T14:15:33.3909410+00:00",
+            "minigame_id": "FighterMission",
+            "lesson_stamp": "1-14-3",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-23T14:19:06.2426360+00:00",
+            "minigame_id": "MoleWhacker",
+            "lesson_stamp": "1-14-11",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-25T16:08:22.8129720+00:00",
+            "minigame_id": "CharacterSearch",
+            "lesson_stamp": "1-15-9",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-25T16:10:18.7353880+00:00",
+            "minigame_id": "FunPaintball",
+            "lesson_stamp": "1-15-11",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-26T18:18:13.5939100+00:00",
+            "minigame_id": "CharacterFingerDance",
+            "lesson_stamp": "1-16-1",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-26T18:19:56.6534500+00:00",
+            "minigame_id": "SoundPicker",
+            "lesson_stamp": "1-16-2",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-26T18:25:15.3954610+00:00",
+            "minigame_id": "FunSkeetShoot",
+            "lesson_stamp": "1-16-5",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-27T18:38:51.0758110+00:00",
+            "minigame_id": "SoundSearch",
+            "lesson_stamp": "1-17-1",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-27T18:41:22.2052910+00:00",
+            "minigame_id": "RoomTidy",
+            "lesson_stamp": "1-17-2",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-27T18:43:35.9401460+00:00",
+            "minigame_id": "WordPicker",
+            "lesson_stamp": "1-17-3",
+            "feedback_index": 0,
+            "complexity_index": 0,
+            "is_positive_review": true
+          },
+          {
+            "score": 0,
+            "timestamp": "2022-12-27T18:46:02.2631640+00:00",
+            "minigame_id": "FunFighterMission",
+            "lesson_stamp": "1-17-5",
+            "feedback_index": 0,
+            "complexity_index": 1,
+            "is_positive_review": true
+          }
+        ],
+        "level_session_directory": {
+          "0": {
+            "best_score": 72,
+            "best_dtt_rating": 0,
+            "best_fast_correct_reading_rating": 1
+          },
+          "1": {
+            "best_score": 0,
+            "best_dtt_rating": 0,
+            "best_fast_correct_reading_rating": 1
+          }
+        },
+        "minigame_session_directory": {
+          "Eggi": {
+            "complexity_sessions": [
+              {
+                "best_score": 72,
+                "gaming_adaptiveness": 0,
+                "gaming_adaptiveness_up_step": 0
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "Fishing": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.852999985218048,
+                "gaming_adaptiveness_up_step": 0.100000001490116
+              },
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.769660115242004,
+                "gaming_adaptiveness_up_step": 0.100000001490116
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "Pinball": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.11999998986721,
+                "gaming_adaptiveness_up_step": 0.0240000002086163
+              },
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.15999998152256,
+                "gaming_adaptiveness_up_step": 0.0199999995529652
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "RoomTidy": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.800000011920929,
+                "gaming_adaptiveness_up_step": 0.100000001490116
+              },
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.590000092983246,
+                "gaming_adaptiveness_up_step": 0.0720000043511391
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "WordSnap": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0,
+                "gaming_adaptiveness_up_step": 0
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "RabbitRun": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.864000201225281,
+                "gaming_adaptiveness_up_step": 0.041472002863884
+              },
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.19999997317791,
+                "gaming_adaptiveness_up_step": 0.0240000002086163
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "FunPinball": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.0240000002086163,
+                "gaming_adaptiveness_up_step": 0.0192000009119511
+              },
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.096000000834465,
+                "gaming_adaptiveness_up_step": 0.0288000013679266
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "SkeetShoot": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.87200003862381,
+                "gaming_adaptiveness_up_step": 0.0864000096917152
+              },
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.590000033378601,
+                "gaming_adaptiveness_up_step": 0.0720000043511391
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "WordPicker": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0,
+                "gaming_adaptiveness_up_step": 0
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "FingerDance": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.600000023841858,
+                "gaming_adaptiveness_up_step": 0.100000001490116
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "LetterQuest": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.0999999940395355,
+                "gaming_adaptiveness_up_step": 0.0240000002086163
+              },
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.13400000333786,
+                "gaming_adaptiveness_up_step": 0.0288000013679266
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "MoleWhacker": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.745000123977661,
+                "gaming_adaptiveness_up_step": 0.0600000023841858
+              },
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.370400041341782,
+                "gaming_adaptiveness_up_step": 0.0864000096917152
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "SoundPicker": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0,
+                "gaming_adaptiveness_up_step": 0
+              },
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0,
+                "gaming_adaptiveness_up_step": 0
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "SoundSearch": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 1,
+                "gaming_adaptiveness_up_step": 0.0691200122237206
+              },
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 1,
+                "gaming_adaptiveness_up_step": 0.0691200122237206
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "WordBuilder": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 1,
+                "gaming_adaptiveness_up_step": 0.100000001490116
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "FunPaintball": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 1,
+                "gaming_adaptiveness_up_step": 0.0600000023841858
+              }
+            ],
+            "introduced_in_level": 1,
+            "literacy_adaptiveness": null
+          },
+          "FunSkeetShoot": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 1,
+                "gaming_adaptiveness_up_step": 0.0864000096917152
+              },
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 1,
+                "gaming_adaptiveness_up_step": 0.0600000023841858
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "LetterFishing": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.749999940395355,
+                "gaming_adaptiveness_up_step": 0.096000000834465
+              },
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.804000079631805,
+                "gaming_adaptiveness_up_step": 0.100000001490116
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "PicturePicker": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0,
+                "gaming_adaptiveness_up_step": 0
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "WordPaintball": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 1,
+                "gaming_adaptiveness_up_step": 0.0720000043511391
+              },
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.550000071525574,
+                "gaming_adaptiveness_up_step": 0.0600000023841858
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "FighterMission": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 1,
+                "gaming_adaptiveness_up_step": 0.100000001490116
+              },
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.459999978542328,
+                "gaming_adaptiveness_up_step": 0.100000001490116
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "CharacterSearch": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.962000250816345,
+                "gaming_adaptiveness_up_step": 0.100000001490116
+              },
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 1,
+                "gaming_adaptiveness_up_step": 0.0480000041425228
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "LetterPaintball": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 1,
+                "gaming_adaptiveness_up_step": 0.0720000043511391
+              },
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 1,
+                "gaming_adaptiveness_up_step": 0.0720000043511391
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "FunFighterMission": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.600000023841858,
+                "gaming_adaptiveness_up_step": 0.100000001490116
+              },
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.369999974966049,
+                "gaming_adaptiveness_up_step": 0.100000001490116
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "LetterFingerDance": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.600000023841858,
+                "gaming_adaptiveness_up_step": 0.0800000056624413
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "CharacterPaintball": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.850000023841858,
+                "gaming_adaptiveness_up_step": 0.0500000007450581
+              },
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.85099983215332,
+                "gaming_adaptiveness_up_step": 0.0576000064611435
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "TrainertextBuilder": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 1,
+                "gaming_adaptiveness_up_step": 0.100000001490116
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          },
+          "CharacterFingerDance": {
+            "complexity_sessions": [
+              {
+                "best_score": 0,
+                "gaming_adaptiveness": 0.700000047683716,
+                "gaming_adaptiveness_up_step": 0.100000001490116
+              }
+            ],
+            "introduced_in_level": 0,
+            "literacy_adaptiveness": null
+          }
+        },
+        "current_lesson_start_timestamp": "2022-12-27T18:36:45.1706930+00:00",
+        "last_completed_lesson_activity": "1-17-7",
+        "randomized_lesson_matrix_directory": {},
+        "last_completed_lesson_activity_timestamp": "2022-12-27T18:46:18.8165410+00:00"
+      },
+      "assessment_submission_data": {
+        "sections": {
+          "eye_tracking": {
+            "Her feet got hurt.": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 3974
+              }
+            },
+            "They cut the long weeds.": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 4038
+              }
+            }
+          },
+          "tricky_words": {
+            "be": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1228
+              }
+            },
+            "he": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1112
+              }
+            },
+            "me": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 873
+              }
+            },
+            "my": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 873
+              }
+            },
+            "we": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1317
+              }
+            },
+            "all": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1187
+              }
+            },
+            "are": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1287
+              }
+            },
+            "she": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 848
+              }
+            },
+            "was": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1008
+              }
+            },
+            "you": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 902
+              }
+            },
+            "live": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 858
+              }
+            },
+            "they": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1154
+              }
+            },
+            "what": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1389
+              }
+            }
+          },
+          "nonsense_words": {
+            "joo": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1528
+              }
+            },
+            "var": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1331
+              }
+            },
+            "woat": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1352
+              }
+            },
+            "zear": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1392
+              }
+            },
+            "churk": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 2085
+              }
+            },
+            "shoin": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 2476
+              }
+            }
+          },
+          "grapheme_recognition": {
+            "j": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 2519
+              }
+            },
+            "v": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 937
+              }
+            },
+            "w": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 993
+              }
+            },
+            "x": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1217
+              }
+            },
+            "y": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 899
+              }
+            },
+            "z": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 887
+              }
+            },
+            "ai": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 927
+              }
+            },
+            "ar": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 887
+              }
+            },
+            "ch": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 833
+              }
+            },
+            "ee": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 993
+              }
+            },
+            "er": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1256
+              }
+            },
+            "ng": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1022
+              }
+            },
+            "oa": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 968
+              }
+            },
+            "oi": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 921
+              }
+            },
+            "oo": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1092
+              }
+            },
+            "or": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1333
+              }
+            },
+            "ow": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1005
+              }
+            },
+            "qu": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1008
+              }
+            },
+            "sh": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1042
+              }
+            },
+            "th": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1123
+              }
+            },
+            "ur": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 1307
+              }
+            },
+            "air": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 933
+              }
+            },
+            "ear": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 948
+              }
+            },
+            "igh": {
+              "default": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 889
+              }
+            }
+          },
+          "sounding_out_and_blending": {
+            "jam": {
+              "blending": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 661
+              },
+              "sounding_out": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 2397
+              }
+            },
+            "chip": {
+              "blending": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 378
+              },
+              "sounding_out": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 4039
+              }
+            },
+            "coin": {
+              "blending": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 213
+              },
+              "sounding_out": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 3968
+              }
+            },
+            "feet": {
+              "blending": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 448
+              },
+              "sounding_out": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 2743
+              }
+            },
+            "torn": {
+              "blending": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 408
+              },
+              "sounding_out": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 3006
+              }
+            },
+            "shark": {
+              "blending": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 304
+              },
+              "sounding_out": {
+                "correct": true,
+                "answered": true,
+                "time_taken": 3365
+              }
+            }
+          }
+        },
+        "completed": "2022-11-21T09:11:55.302164+00:00"
+      },
+      "library_data": {
+        "book_session": {
+          "books.amap.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-10-22T15:47:23.7808160+01:00"
+          },
+          "books.sidsat.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-10-21T07:59:28.8123140+01:00"
+          },
+          "books.topdog.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-10-30T13:50:01.5987610+00:00"
+          },
+          "books.theseed.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-11-16T07:32:50.4824800+00:00"
+          },
+          "books.henishot.xml": {
+            "read_count": 1,
+            "last_feedback_value": 1,
+            "last_started_timestamp": "2022-11-02T18:29:56.4458770+00:00"
+          },
+          "books.natcooks.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-11-07T15:53:36.3404490+00:00"
+          },
+          "books.natspets.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-12-18T11:05:38.5911240+00:00"
+          },
+          "books.sitandtip.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-10-23T11:36:13.4662200+01:00"
+          },
+          "books.jillandval.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-12-23T14:24:44.8903250+00:00"
+          },
+          "books.natandshep.xml": {
+            "read_count": 1,
+            "last_feedback_value": 4,
+            "last_started_timestamp": "2022-11-19T16:33:52.6877060+00:00"
+          },
+          "books.tessisamess.xml": {
+            "read_count": 1,
+            "last_feedback_value": 3,
+            "last_started_timestamp": "2022-11-02T18:25:51.3648470+00:00"
+          },
+          "books.pimandsamnap.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-10-21T08:02:48.6834930+01:00"
+          },
+          "books.dadpacksasack.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-10-30T13:54:02.2732440+00:00"
+          },
+          "books.pimgetsajacket.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-11-25T07:27:25.2663970+00:00"
+          },
+          "books.thezudinthemud.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-11-17T17:15:53.9978020+00:00"
+          },
+          "books.asharkinthepool.xml": {
+            "read_count": 1,
+            "last_feedback_value": 3,
+            "last_started_timestamp": "2022-11-11T19:24:19.1793500+00:00"
+          },
+          "books.theoononthemoon.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-11-14T15:46:17.0673540+00:00"
+          },
+          "books.thepingpongsong.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-11-25T07:21:04.1081850+00:00"
+          },
+          "books.timandthebigrats.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-11-17T17:10:38.0651310+00:00"
+          },
+          "books.timandthebigsack.xml": {
+            "read_count": 1,
+            "last_feedback_value": 2,
+            "last_started_timestamp": "2022-11-04T18:26:57.6014790+00:00"
+          },
+          "books.baddogbenandthejam.xml": {
+            "read_count": 1,
+            "last_feedback_value": 5,
+            "last_started_timestamp": "2022-11-27T11:23:50.9087120+00:00"
+          }
+        },
+        "session_version": 1,
+        "last_session_timestamp": "2022-12-23T14:24:44.8902960+00:00"
+      }
+    }
+  },
+  "assessment_data": {
+    "title": "Phase 3 Assessment",
+    "description": "At the end of each phase, you will find an assessment activity which contains everything you need in order to assess a child\u2019s phonological awareness upon completion of the phase.\nThese  assessments  do  not  have  a  standardised  pass  rate  but  are  designed  to  be  used as part of your day to day formative assessment to inform your next steps for every child. As a general indicator, a child should be able to recognise and pronounce the majority of graphemes and phonemes in the phases they have completed.\nThese assessments are also useful as a baseline assessment, to assess new children to your school or children that you may have concerns about.\n<strong>Graphemes &lt;th&gt; and &lt;oo&gt;</strong>\nIn Phase 3, children learnt that the grapheme &lt;th&gt; can be said with either an unvoiced /th/ (thief) or a voiced /th/ (that). Similarly, the grapheme &lt;oo&gt; can be either a short /oo/ (Ook) or a long /oo/ (Oon). When covering these graphemes in the assessment, you can accept either pronunciation as correct. ",
+    "sections": [
+      {
+        "section_type": "GRAPHEME_RECOGNITION",
+        "questions": [
+          "j",
+          "v",
+          "w",
+          "x",
+          "y",
+          "z",
+          "qu",
+          "ch",
+          "sh",
+          "th",
+          "ng",
+          "ai",
+          "ee",
+          "igh",
+          "oa",
+          "oo",
+          "ar",
+          "or",
+          "ur",
+          "ow",
+          "oi",
+          "ear",
+          "air",
+          "er"
+        ],
+        "instruction_to_learner": "Please tell me the phoneme for each of these graphemes.",
+        "notes": "Stop the activity if the child is really struggling or after 75 seconds.",
+        "section_time_limit": 75
+      },
+      {
+        "section_type": "SOUNDING_OUT_AND_BLENDING",
+        "questions": ["jam", "chip", "feet", "torn", "coin", "shark"],
+        "options_per_question": ["SOUNDING_OUT", "BLENDING"],
+        "instruction_to_learner": "1. Please try to give me each phoneme in these words.\n2. Then say the whole word.\nFor instance, the first one is /j/ /a/ /m/, jam.",
+        "notes": "Mark a yes/no for both the sounding out and for blending the phonemes to form the word. Help if necessary (but mark incorrect) and stop the activity after 60 seconds.",
+        "section_time_limit": 60
+      },
+      {
+        "section_type": "TRICKY_WORDS",
+        "questions": [
+          "we",
+          "me",
+          "be",
+          "he",
+          "she",
+          "was",
+          "my",
+          "live",
+          "you",
+          "they",
+          "are",
+          "all",
+          "what"
+        ],
+        "instruction_to_learner": "Have a go at reading our tricky words to me, please.",
+        "notes": "Help if they are stuck (but mark incorrect) and stop the activity after 60 seconds.",
+        "section_time_limit": 60
+      },
+      {
+        "section_type": "NONSENSE_WORDS",
+        "questions": ["joo", "var", "zear", "woat", "shoin", "churk"],
+        "instruction_to_learner": "Have a go at reading these nonsense words to me, please.",
+        "notes": "Help if they are stuck (but mark incorrect) and stop the activity after 60 seconds.",
+        "section_time_limit": 60
+      },
+      {
+        "section_type": "EYE_TRACKING",
+        "questions": ["They cut the long weeds.", "Her feet got hurt."],
+        "instruction_to_learner": "Read through these two bits of text.",
+        "notes": "If your learner finds the larger text size more comfortable to read, or makes more errors when reading the smaller text size, then start the ten day eye tracking exercise routine detailed in your All Aboard Phonics Plus manual."
+      }
+    ]
+  }
+}
