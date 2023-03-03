@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "seed": 945155739,
+  "timeEvents": [
+    {
+      "name": "intro_0",
+      "targetTime": 3
+    },
+    {
+      "name": "intro_1",
+      "targetTime": 4.666666666666667
+    },
+    {
+      "name": "intro_2",
+      "targetTime": 6.333333333333333
+    },
+    {
+      "name": "intro_3",
+      "targetTime": 8
+    },
+    {
+      "name": "disc_0",
+      "targetTime": 10.287680350788518
+    },
+    {
+      "name": "disc_1",
+      "targetTime": 16.7
+    },
+    {
+      "name": "disc_2",
+      "targetTime": 19.333333333333332
+    },
+    {
+      "name": "disc_3",
+      "targetTime": 23.033333333333335
+    }
+  ]
+}
